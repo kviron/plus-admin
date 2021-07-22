@@ -5,7 +5,7 @@
  * Description:       PLUS Admin is the most complete and fully powered WordPress White Label Admin Theme. Customizing your admin area has never been so easy, with so many options, easy to use and with the posibility to change everything in seconds.
  * Version:           1.0.2
  * Author:            Castorstudio
- * Author URI:        http://www.castorstudio.com
+ * Author URI:        http://www.drozzi.pro
  * Text Domain:       plus_admin
  * Domain Path:       /languages
  */
