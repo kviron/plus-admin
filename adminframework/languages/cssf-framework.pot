@@ -1,0 +1,1184 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: CastorStudio Settings Framework\n"
+"POT-Creation-Date: 2019-11-05 22:21-0300\n"
+"PO-Revision-Date: 2019-11-05 22:21-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cssf-framework.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/framework.class.php:95
+msgid "Save"
+msgstr ""
+
+#: classes/framework.class.php:96
+msgid "Restore"
+msgstr ""
+
+#: classes/framework.class.php:97 fields/backup/backup.php:47
+msgid "Reset All Options"
+msgstr ""
+
+#: classes/framework.class.php:266
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: classes/framework.class.php:269
+msgid "Default options restored."
+msgstr ""
+
+#: classes/framework.class.php:292
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: classes/options.class.php:211
+msgid "CONFIG"
+msgstr ""
+
+#: classes/options.class.php:217 classes/options.class.php:237
+msgid "USAGE"
+msgstr ""
+
+#: classes/options.class.php:223
+msgid "VALUE"
+msgstr ""
+
+#: classes/options.class.php:241
+msgid "ID"
+msgstr ""
+
+#: classes/options.class.php:345
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: classes/options.class.php:381
+msgid "All Pages"
+msgstr ""
+
+#: classes/options.class.php:1035
+msgid "Word Count"
+msgstr ""
+
+#: classes/options.class.php:1035
+msgid "Character Count"
+msgstr ""
+
+#: classes/posttype/posttype.php:207 classes/posttype/posttype.php:208
+#: classes/posttype/posttype.php:209 classes/posttype/posttype.php:210
+#: classes/posttype/posttype.php:502 classes/posttype/taxonomy.php:120
+#: classes/posttype/taxonomy.php:121 classes/posttype/taxonomy.php:122
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: classes/posttype/posttype.php:211
+msgid "Add New"
+msgstr ""
+
+#: classes/posttype/posttype.php:212 classes/posttype/taxonomy.php:127
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: classes/posttype/posttype.php:213 classes/posttype/taxonomy.php:124
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: classes/posttype/posttype.php:214
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: classes/posttype/posttype.php:215 classes/posttype/taxonomy.php:125
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: classes/posttype/posttype.php:216 classes/posttype/taxonomy.php:131
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: classes/posttype/posttype.php:217 classes/posttype/taxonomy.php:136
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: classes/posttype/posttype.php:218
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: classes/posttype/posttype.php:219 classes/posttype/taxonomy.php:130
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: classes/posttype/posttype.php:220
+#, php-format
+msgid "Enter %s title here"
+msgstr ""
+
+#: classes/posttype/posttype.php:436
+#, php-format
+msgid "Show all %s"
+msgstr ""
+
+#: classes/posttype/posttype.php:584
+#, php-format
+msgid "No %s"
+msgstr ""
+
+#: classes/posttype/posttype.php:716
+#, php-format
+msgid "%2$s restored to revision from %1$s"
+msgstr ""
+
+#: classes/posttype/posttype.php:722 classes/posttype/posttype.php:725
+#: classes/posttype/posttype.php:727
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: classes/posttype/posttype.php:723
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/posttype/posttype.php:724
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/posttype/posttype.php:728
+#, php-format
+msgid "%s saved."
+msgstr ""
+
+#: classes/posttype/posttype.php:729
+#, php-format
+msgid "%s submitted."
+msgstr ""
+
+#: classes/posttype/posttype.php:731
+#, php-format
+msgid "%2$s scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: classes/posttype/posttype.php:732
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/posttype/posttype.php:735
+#, php-format
+msgid "%s draft updated."
+msgstr ""
+
+#: classes/posttype/posttype.php:755 classes/posttype/posttype.php:760
+#: classes/posttype/posttype.php:765 classes/posttype/posttype.php:770
+#: classes/posttype/posttype.php:775
+#, php-format
+msgid "%s "
+msgid_plural "%s "
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/posttype/taxonomy.php:123
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: classes/posttype/taxonomy.php:126
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: classes/posttype/taxonomy.php:128
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: classes/posttype/taxonomy.php:129
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: classes/posttype/taxonomy.php:132
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: classes/posttype/taxonomy.php:133
+#, php-format
+msgid "Seperate %s with commas"
+msgstr ""
+
+#: classes/posttype/taxonomy.php:134
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: classes/posttype/taxonomy.php:135
+#, php-format
+msgid "Choose from most used %s"
+msgstr ""
+
+#: classes/shortcode.class.php:87 classes/shortcode.class.php:95
+#: fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: classes/shortcode.class.php:97
+msgid "Select a shortcode"
+msgstr ""
+
+#: classes/shortcode.class.php:98
+msgid "Please select a shortcode"
+msgstr ""
+
+#: classes/shortcode.class.php:112
+msgid "Please select a shortcode from the above select field..."
+msgstr ""
+
+#: classes/shortcode.class.php:114 functions/actions.php:156
+#: functions/actions.php:240
+msgid "Loading..."
+msgstr ""
+
+#: classes/shortcode.class.php:116
+msgid "Insert Shortcode"
+msgstr ""
+
+#: fields/animate_css/animate_css.php:54
+msgid "Effect"
+msgstr ""
+
+#: fields/animate_css/animate_css.php:62
+msgid "Run Once"
+msgstr ""
+
+#: fields/animate_css/animate_css.php:63
+msgid "Run Infinite"
+msgstr ""
+
+#: fields/animate_css/animate_css.php:67
+msgid "Iteration Count"
+msgstr ""
+
+#: fields/animate_css/animate_css.php:82
+msgid "Iteration Delay"
+msgstr ""
+
+#: fields/animate_css/animate_css.php:87
+msgid "ms."
+msgstr ""
+
+#: fields/animation_select/animation_select.php:21
+msgid "Fade FX"
+msgstr ""
+
+#: fields/animation_select/animation_select.php:22
+msgid "Fade In"
+msgstr ""
+
+#: fields/animation_select/animation_select.php:23
+msgid "Fade In Top"
+msgstr ""
+
+#: fields/animation_select/animation_select.php:24
+msgid "Fade In Bottom"
+msgstr ""
+
+#: fields/animation_select/animation_select.php:25
+msgid "Fade In Left"
+msgstr ""
+
+#: fields/animation_select/animation_select.php:26
+msgid "Fade In Right"
+msgstr ""
+
+#: fields/background/background.php:45 fields/background/background.php:46
+#: fields/upload/upload.php:23 fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: fields/background/background.php:47 fields/image/image.php:24
+#: fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: fields/background/background.php:51 fields/image/image.php:22
+#: fields/image/image.php:28
+msgid "Add Image"
+msgstr ""
+
+#: fields/background/background.php:87 fields/file/file.php:56
+#: fields/group/group.php:47 fields/group/group.php:127
+#: fields/image/image.php:63
+msgid "Remove"
+msgstr ""
+
+#: fields/background/background.php:127
+msgid "Repeat"
+msgstr ""
+
+#: fields/background/background.php:150
+msgid "Position"
+msgstr ""
+
+#: fields/background/background.php:166
+msgid "Attachment"
+msgstr ""
+
+#: fields/background/background.php:185
+msgid "Size"
+msgstr ""
+
+#: fields/background/background.php:201 fields/box_shadow/box_shadow.php:129
+#: fields/color_overlay/color_overlay.php:69
+msgid "Color"
+msgstr ""
+
+#: fields/backup/backup.php:34
+msgid "Import a Backup"
+msgstr ""
+
+#: fields/backup/backup.php:36
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: fields/backup/backup.php:44
+msgid "Export and Download Backup"
+msgstr ""
+
+#: fields/backup/backup.php:45
+msgid "or"
+msgstr ""
+
+#: fields/backup/backup.php:48
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: fields/border/border.php:65
+msgid "All borders"
+msgstr ""
+
+#: fields/border/border.php:80
+msgid "Top Border"
+msgstr ""
+
+#: fields/border/border.php:95
+msgid "Right Border"
+msgstr ""
+
+#: fields/border/border.php:110
+msgid "Bottom Border"
+msgstr ""
+
+#: fields/border/border.php:125
+msgid "Left Border"
+msgstr ""
+
+#: fields/border/border.php:142 fields/css_builder/css_builder.php:79
+msgid "Border Style"
+msgstr ""
+
+#: fields/border/border.php:157 fields/css_builder/css_builder.php:67
+msgid "Border Color"
+msgstr ""
+
+#: fields/box_shadow/box_shadow.php:66
+msgid "X Offset"
+msgstr ""
+
+#: fields/box_shadow/box_shadow.php:82
+msgid "Y Offset"
+msgstr ""
+
+#: fields/box_shadow/box_shadow.php:98
+msgid "Blur"
+msgstr ""
+
+#: fields/box_shadow/box_shadow.php:114
+msgid "Spread"
+msgstr ""
+
+#: fields/box_shadow/box_shadow.php:143
+msgid "Type"
+msgstr ""
+
+#: fields/box_shadow/box_shadow.php:157
+msgid "Unit"
+msgstr ""
+
+#: fields/builder_navbar/builder_navbar.php:22
+#: fields/navbar_builder/navbar_builder.php:173
+msgid "Help"
+msgstr ""
+
+#: fields/builder_navbar/builder_navbar.php:26
+#: fields/navbar_builder/navbar_builder.php:174
+msgid "Screen Options"
+msgstr ""
+
+#: fields/builder_navbar/builder_navbar.php:30
+#: fields/navbar_builder/navbar_builder.php:171
+#: fields/navbar_builder/navbar_builder.php:305
+msgid "Notifications"
+msgstr ""
+
+#: fields/builder_navbar/builder_navbar.php:34
+#: fields/navbar_builder/navbar_builder.php:172
+msgid "View Site"
+msgstr ""
+
+#: fields/builder_navbar/builder_navbar.php:38
+#: fields/navbar_builder/navbar_builder.php:169
+msgid "Updates"
+msgstr ""
+
+#: fields/builder_navbar/builder_navbar.php:42
+#: fields/navbar_builder/navbar_builder.php:168
+msgid "Comments"
+msgstr ""
+
+#: fields/builder_navbar/builder_navbar.php:46
+#: fields/navbar_builder/navbar_builder.php:170
+msgid "New Content"
+msgstr ""
+
+#: fields/builder_navbar/builder_navbar.php:50
+msgid "User Profile"
+msgstr ""
+
+#: fields/button/button.php:17
+msgid "Button Name"
+msgstr ""
+
+#: fields/color_link/color_link.php:54
+msgid "Regular"
+msgstr ""
+
+#: fields/color_link/color_link.php:70
+msgid "Hover"
+msgstr ""
+
+#: fields/color_link/color_link.php:86
+msgid "Visited"
+msgstr ""
+
+#: fields/color_link/color_link.php:102
+msgid "Active"
+msgstr ""
+
+#: fields/color_link/color_link.php:118
+msgid "Focus"
+msgstr ""
+
+#: fields/color_overlay/color_overlay.php:80
+msgid "Blend Mode"
+msgstr ""
+
+#: fields/color_overlay/color_overlay.php:94
+msgid "Blend Amount"
+msgstr ""
+
+#: fields/color_overlay/color_overlay.php:99
+msgid "%"
+msgstr ""
+
+#: fields/color_theme/color_theme.php:164
+msgid "Default Theme"
+msgstr ""
+
+#: fields/color_theme/color_theme.php:252
+msgid "Select User Role"
+msgstr ""
+
+#: fields/color_theme/color_theme.php:253
+msgid ""
+"Select a user role to customize. If you do not select any, the "
+"<strong>Default Theme</strong> style will be applied to all user roles."
+msgstr ""
+
+#: fields/color_theme/color_theme.php:254
+msgid "Choose Color Scheme"
+msgstr ""
+
+#: fields/color_theme/color_theme.php:255
+msgid ""
+"Choose the color scheme you want, customize it and use it or save it as a "
+"new one!"
+msgstr ""
+
+#: fields/color_theme/color_theme.php:256
+msgid "Save Color Scheme"
+msgstr ""
+
+#: fields/color_theme/color_theme.php:257
+msgid "Export"
+msgstr ""
+
+#: fields/color_theme/color_theme.php:258
+msgid "Import"
+msgstr ""
+
+#: fields/color_variant/color_variant.php:54
+msgid "Darker"
+msgstr ""
+
+#: fields/color_variant/color_variant.php:70
+msgid "Dark"
+msgstr ""
+
+#: fields/color_variant/color_variant.php:86
+msgid "Normal"
+msgstr ""
+
+#: fields/color_variant/color_variant.php:102
+msgid "Light"
+msgstr ""
+
+#: fields/color_variant/color_variant.php:118
+msgid "Lighter"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:38
+msgid "Margin"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:42
+msgid "Border"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:45
+msgid "Padding"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:61
+msgid "Background Color"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:73
+msgid "Text Color"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:82
+#: fields/typography_advanced/typography_advanced.php:234
+msgid "None"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:83
+msgid "Solid"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:84
+msgid "Dashed"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:85
+msgid "Dotted"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:86
+msgid "Double"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:87
+msgid "Groove"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:88
+msgid "Ridge"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:89
+msgid "Inset"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:90
+msgid "Outset"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:96
+msgid "Border Radius"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:102
+msgid "Top Left"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:112
+msgid "Top Right"
+msgstr ""
+
+#: fields/css_builder/css_builder.php:121
+#: fields/css_builder/css_builder.php:130
+msgid "Bottom Left"
+msgstr ""
+
+#: fields/custom_userrole/custom_userrole.php:37
+#, php-format
+msgid "Redirect %s users to:"
+msgstr ""
+
+#: fields/custom_userrole/custom_userrole.php:39
+#: fields/navbar_builder/navbar_builder.php:219
+#: fields/navbar_builder/navbar_builder.php:286
+#: fields/navbar_builder/navbar_builder.php:308
+#: fields/navbar_builder/navbar_builder.php:322
+msgid "Yes"
+msgstr ""
+
+#: fields/custom_userrole/custom_userrole.php:40
+#: fields/navbar_builder/navbar_builder.php:220
+#: fields/navbar_builder/navbar_builder.php:287
+#: fields/navbar_builder/navbar_builder.php:309
+#: fields/navbar_builder/navbar_builder.php:323
+msgid "No"
+msgstr ""
+
+#: fields/custom_userrole/custom_userrole.php:52
+msgid "<p class=\"cssf-text-muted\">Leave blank to use the default url.</p>"
+msgstr ""
+
+#: fields/easing_editor/easing_editor.php:31
+msgid "Defaults"
+msgstr ""
+
+#: fields/easing_editor/easing_editor.php:38
+msgid "Material Design Easing Curves"
+msgstr ""
+
+#: fields/easing_editor/easing_editor.php:44
+msgid "Penner Equations (approximated)"
+msgstr ""
+
+#: fields/easing_editor/easing_editor.php:72
+#: fields/easing_editor/easing_editor.php:73
+msgid "Custom Easing"
+msgstr ""
+
+#: fields/easing_editor/easing_editor.php:107
+msgid "Toggle Editor"
+msgstr ""
+
+#: fields/file/file.php:22 fields/file/file.php:29
+msgid "Add File"
+msgstr ""
+
+#: fields/file/file.php:23
+msgid "Upload File"
+msgstr ""
+
+#: fields/file/file.php:24
+msgid "Use File"
+msgstr ""
+
+#: fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: fields/group/group.php:23
+msgid "Adding"
+msgstr ""
+
+#: fields/icon/icon.php:25 functions/actions.php:154
+msgid "Add Icon"
+msgstr ""
+
+#: fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: fields/image/image.php:23
+msgid "Upload Image"
+msgstr ""
+
+#: fields/image_gallery_custom/image_gallery_custom.php:52
+#: functions/actions.php:238
+msgid "Add image"
+msgstr ""
+
+#: fields/image_gallery_custom/image_gallery_custom.php:53
+msgid "Remove image"
+msgstr ""
+
+#: fields/image_size/image_size.php:39
+msgid "Width"
+msgstr ""
+
+#: fields/image_size/image_size.php:54
+msgid "Height"
+msgstr ""
+
+#: fields/image_size/image_size.php:66
+msgid "Hard Crop ?"
+msgstr ""
+
+#: fields/links/links.php:56
+msgid "URL :"
+msgstr ""
+
+#: fields/links/links.php:57
+msgid "Title :"
+msgstr ""
+
+#: fields/links/links.php:58
+msgid "Target :"
+msgstr ""
+
+#: fields/links/links.php:59
+msgid "Select URL"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:115
+msgid "Drag & Drop some elements here"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:146
+msgid "Add New Element"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:164
+msgid "Element Type"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:166
+msgid "Customizable Elements"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:167
+msgid "User Account"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:175
+msgid "Sidebar Toggle"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:176
+msgid "Network Sites"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:177
+msgid "Custom Link"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:178
+msgid "Customizable Element"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:180
+msgid "Pre-defined Elements"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:181
+msgid "Page Title"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:182
+msgid "Flexible Space"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:183
+msgid "Site Brand"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:186
+msgid "-- Select an element type --"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:195
+msgid "Element Visibility"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:196
+msgid "Set the visibility of the item according to different devices"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:197
+msgid "If you leave blank, the item will be hidden in all devices"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:201
+msgid "Select a device"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:203
+msgid "Desktop"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:204
+msgid "Tablet"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:205
+msgid "Mobile"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:206
+msgid "Small"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:216
+msgid "User Avatar"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:217
+msgid "Use user avatar image"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:230
+msgid "Icon"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:237
+msgid "Secondary Icon"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:238
+msgid "This icon is displayed to close the sidebar"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:248
+msgid "Custom Link Type"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:249
+msgid "Choose the type of link you want to use in this element"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:251
+msgid "Admin Page"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:252
+msgid "Internal Link"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:253
+msgid "External Link"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:261
+msgid "Custom Admin Page Link"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:262
+msgid "Choose the administration page to link to"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:264
+msgid "-- Choose an admin page --"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:273
+msgid "Custom URL"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:274
+msgid "Insert the URL where this element points"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:283
+msgid "Tooltip"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:284
+msgid "Use custom tooltip"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:295
+msgid "Tooltip Text"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:296
+msgid "Leave blank to use the default tooltip"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:306
+msgid "Show notifications bubble"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:319
+msgid "Show Label"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:320
+msgid "Show text label"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:331
+msgid "Element Label"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:338
+msgid "Container ID"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:345
+msgid "Container Class"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:352
+msgid "Wrapper Type"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:364
+msgid "Wrapper ID"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:371
+msgid "Wrapper Class"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:378
+msgid "Wrapper Additional Attributes"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:388
+msgid "<i class=\"cli cli-plus-circle\"></i> Add New Element"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:395
+msgid "<i class=\"cli cli-x\"></i> Cancel Edition"
+msgstr ""
+
+#: fields/navbar_builder/navbar_builder.php:403
+msgid "<i class=\"cli cli-edit-2\"></i> Update Element"
+msgstr ""
+
+#: fields/oembed/oembed.php:75
+msgid "Not a valid oEmbed source"
+msgstr ""
+
+#: fields/oembed/oembed.php:119
+msgid "Search..."
+msgstr ""
+
+#: fields/select/select.php:100
+msgid "No data provided for this option type."
+msgstr ""
+
+#: fields/sorter/sorter.php:24
+msgid "Enabled"
+msgstr ""
+
+#: fields/sorter/sorter.php:25
+msgid "Disabled"
+msgstr ""
+
+#: fields/spacing/spacing.php:65
+msgid "All"
+msgstr ""
+
+#: fields/spacing/spacing.php:83
+msgid "Top"
+msgstr ""
+
+#: fields/spacing/spacing.php:101
+msgid "Right"
+msgstr ""
+
+#: fields/spacing/spacing.php:119
+msgid "Bottom"
+msgstr ""
+
+#: fields/spacing/spacing.php:137
+msgid "Left"
+msgstr ""
+
+#: fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: fields/switcher/switcher.php:21
+msgid "off"
+msgstr ""
+
+#: fields/typography/typography.php:73
+#: fields/typography_advanced/typography_advanced.php:109
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: fields/typography/typography.php:79
+#: fields/typography_advanced/typography_advanced.php:110
+msgid "Google Fonts"
+msgstr ""
+
+#: fields/typography/typography.php:107
+#: fields/typography_advanced/typography_advanced.php:276
+#: functions/actions.php:42
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:139
+msgid "Font Family"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:154
+msgid "Font Weight & Style"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:171
+msgid "Font Size"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:189
+msgid "Line Height"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:207
+msgid "Letter Spacing"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:217
+msgid "Align Left"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:218
+msgid "Align Center"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:219
+msgid "Align Right"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:220
+msgid "Justify"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:224
+msgid "Text Align"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:235
+msgid "Capitalize"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:236
+msgid "Uppercase"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:237
+msgid "Lowercase"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:238
+msgid "Initial"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:239
+msgid "Inherit"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:243
+msgid "Text Transform"
+msgstr ""
+
+#: fields/typography_advanced/typography_advanced.php:260
+msgid "Font Color"
+msgstr ""
+
+#: functions/actions.php:116
+msgid "Not valid backup data"
+msgstr ""
+
+#: functions/actions.php:126
+msgid "Successfully imported backup"
+msgstr ""
+
+#: functions/actions.php:130
+msgid "Empty import data"
+msgstr ""
+
+#: functions/actions.php:155
+msgid "Search a Icon..."
+msgstr ""
+
+#: functions/actions.php:217
+msgid "No image was found in the specified directory."
+msgstr ""
+
+#: functions/actions.php:239
+msgid "Search a image..."
+msgstr ""
+
+#: functions/actions.php:385
+msgid "No color schemes to export"
+msgstr ""
+
+#: functions/helpers.php:47
+#, php-format
+msgid "This field class is not available! %s"
+msgstr ""
+
+#: functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: templates/modern.php:9 templates/simple.php:100
+msgid "Settings Saved"
+msgstr ""
+
+#: templates/modern.php:17
+msgid "Show All Options"
+msgstr ""
+
+#: templates/modern.php:74
+msgid "Powered by CastorStudio Settings Framework"
+msgstr ""
+
+#: templates/modern.php:77
+msgid "Version"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "CastorStudio Settings Framework"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.castorstudio.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A Simple and Lightweight WordPress Option Framework for Themes and Plugins"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CastorStudio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.castorstudio.com"
+msgstr ""

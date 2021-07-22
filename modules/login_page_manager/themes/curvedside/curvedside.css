@@ -1,0 +1,936 @@
+#cs-plus-admin-login-page-wrapper {
+  --cs-plus-background-placeholder: 		var(--cs-plus-theme_image_placeholder) repeat center;
+  --cs-plus-image-placeholder: 	var(--cs-plus-theme_image_placeholder);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+}
+
+#cs-plus-admin-login-page-wrapper,
+#cs-plus-admin-login-page-wrapper * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#cs-plus-admin-login-page-wrapper.is_mobile.landscape.size-xxs, #cs-plus-admin-login-page-wrapper.is_mobile.landscape.size-xs, #cs-plus-admin-login-page-wrapper.is_mobile.landscape.size-sm, #cs-plus-admin-login-page-wrapper.is_mobile.landscape.size-md {
+  position: initial;
+  height: initial;
+}
+
+#cs-plus-admin-login-page-wrapper.is_mobile.landscape.size-xxs .cs-plus-admin-content-wrapper, #cs-plus-admin-login-page-wrapper.is_mobile.landscape.size-xs .cs-plus-admin-content-wrapper, #cs-plus-admin-login-page-wrapper.is_mobile.landscape.size-sm .cs-plus-admin-content-wrapper, #cs-plus-admin-login-page-wrapper.is_mobile.landscape.size-md .cs-plus-admin-content-wrapper {
+  margin: 20px auto;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-background-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: var(--cs-plus-theme_login-background);
+  background-size: var(--cs-plus-theme_login-background-size);
+  z-index: -1;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-background-wrapper #cs-plus-admin-video-background-player {
+  background: #eee;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-background-wrapper #cs-plus-admin-video-background-player iframe {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 56.25vw;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  width: 177.77777778vh;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper {
+  --login-height: 500px;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 90%;
+  min-height: var(--login-height);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper {
+  height: 100%;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content-outside-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*  Logo
+                    ========================================================================== */
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content-outside-logo .cs-plus-admin-login-logo {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content-outside-logo .cs-plus-admin-login-logo h1 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content-outside-logo .cs-plus-admin-login-logo h1 a {
+  background-image: var(--cs-plus-theme_login-logo);
+  background-size: inherit;
+  background-position: center center;
+  background-size: var(--cs-plus-theme_login-logo-size);
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0px;
+  height: inherit;
+  position: relative;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content-outside-logo .cs-plus-admin-login-logo h1 a::after {
+  position: absolute;
+  /* Positions psuedo element relative to .icon */
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  /* Same dimensions as .icon */
+  height: 100%;
+  background: #EC008C;
+  /* The color you want the icon to change to */
+  mix-blend-mode: multiply;
+  /* Only apply color on top of white, use screen if icon is black */
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content {
+  height: 100%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 26px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 26px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: var(--cs-plus-theme_login-side-position-order);
+          flex-flow: var(--cs-plus-theme_login-side-position-order);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content {
+  background: var(--cs-plus-theme_login-side-background);
+  background-size: var(--cs-plus-theme_login-side-background-size);
+  color: var(--cs-plus-theme_login-side-color);
+  width: 350px;
+  height: var(--login-height);
+  min-height: var(--login-height);
+  margin: 0;
+  padding: 15px 50px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*  Logo
+                        ========================================================================== */
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--cs-plus-theme_login-side-overlay-color);
+  mix-blend-mode: var(--cs-plus-theme_login-side-overlay-mode);
+  opacity: var(--cs-plus-theme_login-side-overlay-amount);
+  z-index: 1;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: var(--cs-plus-theme_login-side-position-right, initial);
+  left: var(--cs-plus-theme_login-side-position-left, initial);
+  width: 100px;
+  height: 100%;
+  background: var(--cs-plus-theme_login-side-position-background);
+  background-size: contain;
+  z-index: 1;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-login-logo {
+  width: 250px;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-login-logo h1 {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-login-logo h1 a {
+  background-image: var(--cs-plus-theme_login-logo);
+  background-size: inherit;
+  background-position: center center;
+  background-size: var(--cs-plus-theme_login-logo-size);
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0px;
+  position: relative;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-login-logo h1 a::after {
+  position: absolute;
+  /* Positions psuedo element relative to .icon */
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  /* Same dimensions as .icon */
+  height: 100%;
+  background: #EC008C;
+  /* The color you want the icon to change to */
+  mix-blend-mode: multiply;
+  /* Only apply color on top of white, use screen if icon is black */
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro {
+  color: var(--cs-plus-theme_login-side-color);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: inherit;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro .cs-plus-admin-side-intro-body {
+  font-size: 14px;
+  color: inherit;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro .cs-plus-admin-side-intro-body p {
+  font-size: 18px;
+  color: inherit;
+  margin: 10px 0px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper {
+  position: relative;
+  background-color: var(--cs-plus-theme_login-form-background, white);
+  width: 45%;
+  padding: 15px 50px;
+  height: var(--login-height);
+  min-height: var(--login-height);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  /*  Login form Title, Form and Buttons
+                        ========================================================================== */
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper a {
+  color: var(--cs-plus-theme_login-theme-primary);
+  text-decoration: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login {
+  width: 100%;
+  padding: 0px;
+  /*  Logo
+                            ========================================================================== */
+  /*  Messages
+                            ========================================================================== */
+  /*  Login Form
+                            ========================================================================== */
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login h1 {
+  display: none;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login .cs-plus-admin-login-title {
+  margin-bottom: 30px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login .cs-plus-admin-login-title h2 {
+  margin: 0px;
+  padding: 0;
+  font-size: 32px;
+  font-weight: lighter;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  color: #919191;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login .cs-plus-admin-login-title h2 strong {
+  color: var(--cs-plus-theme_login-theme-primary);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login .cs-plus-admin-login-title .cs-plus-admin-login-title-lead {
+  font-weight: 100;
+  font-size: 24px;
+  margin: 40px 0 30px 0px;
+  width: 80%;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login p.message {
+  padding: 0px;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  display: none;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login #login_error {
+  padding: 0px;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform {
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0;
+  padding: 0;
+  line-height: initial;
+  position: relative;
+  overflow: visible;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform br,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform br,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform br {
+  display: none;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p {
+  position: relative;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.forgetmenot,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p.forgetmenot,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p.forgetmenot {
+  float: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.submit,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p.submit,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p.submit {
+  float: left;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.submit input.button#wp-submit,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p.submit input.button#wp-submit,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p.submit input.button#wp-submit {
+  float: none;
+  line-height: 1;
+  height: initial;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  border: none;
+  border-radius: 4px;
+  padding: 0 30px;
+  min-width: 73px;
+  height: 33px;
+  vertical-align: middle;
+  text-align: center;
+  text-overflow: ellipsis;
+  color: var(--cs-plus-theme_login-button-color);
+  background-color: var(--cs-plus-theme_login-button-background);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 36px;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.submit input.button#wp-submit:hover,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p.submit input.button#wp-submit:hover,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p.submit input.button#wp-submit:hover {
+  color: var(--cs-plus-theme_login-button-color-hover);
+  background: var(--cs-plus-theme_login-button-background-hover);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.submit input.button#wp-submit:active,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p.submit input.button#wp-submit:active,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p.submit input.button#wp-submit:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: initial;
+          transform: initial;
+  color: var(--cs-plus-theme_login-button-color-active);
+  background: var(--cs-plus-theme_login-button-background-active);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p:not(.submit):nth-last-of-type(2) label,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p:not(.submit):nth-last-of-type(2) label,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p:not(.submit):nth-last-of-type(2) label {
+  border-bottom-left-radius: var(--label-radius);
+  border-bottom-right-radius: var(--label-radius);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  height: 60px;
+  padding: 0px 0px 0px 60px;
+  position: relative;
+  border: 1px solid #c4c4c4;
+  -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --label-radius: 20px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: 'castor-line-icons';
+  font-size: 16px;
+  color: #c4c4c4;
+  width: 60px;
+  height: 100%;
+  -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label.cs-focused,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label.cs-focused,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label.cs-focused {
+  z-index: 10;
+  border-color: var(--cs-plus-theme_login-theme-primary);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label.cs-focused::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label.cs-focused::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label.cs-focused::before {
+  color: var(--cs-plus-theme_login-theme-primary);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label[for=user_login],
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label[for=user_login],
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label[for=user_login] {
+  border-top-left-radius: var(--label-radius);
+  border-top-right-radius: var(--label-radius);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label[for=user_login]::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label[for=user_login]::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label[for=user_login]::before {
+  content: '\e9fb';
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label[for=user_pass],
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label[for=user_pass],
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label[for=user_pass] {
+  margin-top: -1px;
+  border-bottom-left-radius: var(--label-radius);
+  border-bottom-right-radius: var(--label-radius);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label[for=user_pass]::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label[for=user_pass]::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label[for=user_pass]::before {
+  content: '\e98f';
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label[for=user_email],
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label[for=user_email],
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label[for=user_email] {
+  margin-top: -1px;
+  border-bottom-left-radius: var(--label-radius);
+  border-bottom-right-radius: var(--label-radius);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label[for=user_email]::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label[for=user_email]::before,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label[for=user_email]::before {
+  content: '\ea32';
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label br,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label br,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label br {
+  display: none;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label input.input,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label input.input,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label input.input {
+  margin: 0px;
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  --input-color: rgb(70, 70, 70);
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: var(--input-color);
+  line-height: 1;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label input.input::-webkit-input-placeholder,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label input.input::-webkit-input-placeholder,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label input.input::-webkit-input-placeholder {
+  color: rgba(127, 127, 127, 0.5);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label input.input:-ms-input-placeholder,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label input.input:-ms-input-placeholder,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label input.input:-ms-input-placeholder {
+  color: rgba(127, 127, 127, 0.5);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label input.input::-ms-input-placeholder,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label input.input::-ms-input-placeholder,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label input.input::-ms-input-placeholder {
+  color: rgba(127, 127, 127, 0.5);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label input.input::placeholder,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label input.input::placeholder,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label input.input::placeholder {
+  color: rgba(127, 127, 127, 0.5);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p label input.input:-webkit-autofill,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform p label input.input:-webkit-autofill,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform p label input.input:-webkit-autofill {
+  -webkit-transition: background-color 50000s ease-in-out 0s !important;
+  transition: background-color 50000s ease-in-out 0s !important;
+  color: var(--input-color);
+  -webkit-text-fill-color: var(--input-color);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .g-recaptcha,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .g-recaptcha,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .g-recaptcha {
+  margin: 0px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-links,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-links,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-links {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-links > div,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-links > div,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-links > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-links .cs-plus-admin-forgetmenot label,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-links .cs-plus-admin-forgetmenot label,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-links .cs-plus-admin-forgetmenot label {
+  font-size: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #c4c4c4;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-links .cs-plus-admin-login-link-lostpw a,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-links .cs-plus-admin-login-link-lostpw a,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-links .cs-plus-admin-login-link-lostpw a {
+  display: block;
+  text-align: right;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-links a,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-links a,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-links a {
+  color: var(--cs-plus-theme_login-theme-gray-light);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-links a:hover,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-links a:hover,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-links a:hover {
+  color: var(--cs-plus-theme_login-theme-primary);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-link-register,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-link-register,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-link-register {
+  float: right;
+  margin: 30px 0;
+  height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: var(--cs-plus-theme_login-theme-gray-light);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-link-register a,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-link-register a,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-link-register a {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--cs-plus-theme_login-button-background);
+  -webkit-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform .cs-plus-admin-login-link-register a:hover,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#lostpasswordform .cs-plus-admin-login-link-register a:hover,
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#registerform .cs-plus-admin-login-link-register a:hover {
+  color: var(--cs-plus-theme_login-button-background-hover);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login p#nav {
+  margin: 0px;
+  padding: 0px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login p#backtoblog {
+  margin: 0px;
+  padding: 0px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper .cs-plus-admin-login-form-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #c4c4c4;
+  padding: 20px 40px;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper .cs-plus-admin-login-form-footer p {
+  font-size: inherit;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content {
+    width: 40%;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro {
+    text-align: center;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro .cs-plus-admin-side-intro-body {
+    font-size: 18px;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper {
+    width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content {
+    display: none !important;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-additional-content .cs-plus-admin-side-intro .cs-plus-admin-side-intro-body {
+    display: none;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper {
+    width: 100%;
+    min-height: 420px;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.submit {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.submit input.button#wp-submit {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login h1 a {
+    background-size: contain;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.submit {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-content .cs-plus-admin-login-wrapper #login form#loginform p.submit input.button#wp-submit {
+    width: 100%;
+  }
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-content-inner-wrapper .cs-plus-admin-links {
+  border: 1px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-login-footer {
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  border: 1px solid blue;
+  display: none;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-login-footer p {
+  color: inherit;
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-login-footer a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#cs-plus-admin-login-page-wrapper .cs-plus-admin-content-wrapper .cs-plus-admin-login-footer a:hover {
+  color: white;
+}
+
+/*  Hide Original Fields
+    ========================================================================== */
+#login form p.forgetmenot,
+#login p#nav,
+#login #backtoblog {
+  display: none;
+  visibility: none;
+}
+
+/*  Custom Checkbox
+	========================================================================== */
+.cs_plus_checkbox {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  *display: inline-flex;
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cs_plus_checkbox::before {
+  content: '\e930';
+  font-family: 'castor-line-icons';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 12px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cs_plus_checkbox.checked {
+  background-color: transparent;
+}
+
+.cs_plus_checkbox.checked::before {
+  color: var(--cs-plus-theme_login-theme-primary);
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.cs_plus_checkbox.cs_plus_checkbox.disabled {
+  border: 1px solid orange;
+}
+
+.cs_plus_checkbox.cs_plus_checkbox.checked.disabled {
+  border: 1px solid orange;
+}
+/*# sourceMappingURL=curvedside.css.map */

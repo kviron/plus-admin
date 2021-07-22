@@ -1,0 +1,103 @@
+/**
+ * 03. 25. Field: spinner
+ */
+.cssf-field-spinner .cssf--spin {
+  float: left;
+}
+
+.cssf-field-spinner .cssf--unit {
+  float: right;
+  height: 30px;
+  line-height: 26px;
+  text-align: center;
+  border-left: none;
+  color: #999;
+  border: 1px solid #ddd;
+  border-left: 0;
+  background-color: #eee;
+  padding: 0 6px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cssf-field-spinner .ui-spinner-button {
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  float: left;
+  cursor: pointer;
+  padding: 7px 14px;
+  min-width: 37px;
+  height: 37px;
+  text-align: center;
+  color: #555555;
+  border: 1px solid #cccccc;
+  background-color: #f7f7f7;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.cssf-field-spinner .ui-spinner-button:hover {
+  background-color: #e7e7e7;
+}
+
+.cssf-field-spinner .ui-spinner-button:active {
+  background-color: #ddd;
+}
+
+.cssf-field-spinner .ui-spinner-button:before {
+  font-family: 'castor-line-icons', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.cssf-field-spinner .ui-spinner-down {
+  float: left;
+  border-right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.cssf-field-spinner .ui-spinner-down:before {
+  content: "\e99e";
+}
+
+.cssf-field-spinner .ui-spinner-up {
+  float: right;
+  border-left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.cssf-field-spinner .ui-spinner-up:before {
+  content: "\e9b9";
+}
+
+.cssf-field-spinner input[type="text"].cssf-number.ui-spinner-input {
+  width: 60px;
+  text-align: center;
+  line-height: inherit;
+  margin: 0;
+  padding: 7px 14px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #eeeeee !important;
+  border-top-color: #dedede !important;
+  background-color: #f1f1f1 !important;
+  color: #444444;
+  -webkit-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+}
+
+.cssf-field-spinner input[type="text"]:focus {
+  outline: none;
+}
+
+.cssf-field-spinner .ui-button-text {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,4197 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: PLUS Wordpress Admin Theme\n"
+"POT-Creation-Date: 2019-11-05 18:55-0300\n"
+"PO-Revision-Date: 2019-11-05 18:54-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: plus_admin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-plus_admin-admin.php:290
+msgid "You're almost there!"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:291
+msgid ""
+"It looks like this is your first run of Plus Admin, and you need to set some "
+"settings before you're ready to go."
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:292
+msgid "It will take just 5 minutes to put the things in order."
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:293
+msgid "Configure Plus Admin now!"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:503
+#, php-format
+msgid "Your WordPress Admin Dashboard looks awesome thanks to %s"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:641
+msgid "Search a site"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:669
+msgid "Settings"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:670
+msgid "Support"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:686
+msgid "Getting Started"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:687
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:917
+#: adminframework/fields/builder_navbar/builder_navbar.php:22
+#: adminframework/fields/navbar_builder/navbar_builder.php:173
+msgid "Help"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:918
+#: adminframework/fields/builder_navbar/builder_navbar.php:26
+#: adminframework/fields/navbar_builder/navbar_builder.php:174
+#: plugin_includes/class-plus_admin-navbar.php:456
+msgid "Screen Options"
+msgstr ""
+
+#: admin/class-plus_admin-admin.php:1040
+msgid "About the Plugin"
+msgstr ""
+
+#: admin/config/plus-config.php:8 admin/config/plus-config.php:14
+msgid "PLUS Admin Settings"
+msgstr ""
+
+#: admin/config/plus-config.php:15
+msgid "by CastorStudio"
+msgstr ""
+
+#: admin/config/plus-config.php:39
+#: modules/login_page_manager/config/login_page_manager-settings.php:574
+msgid "Themes"
+msgstr ""
+
+#: admin/config/plus-config.php:46 admin/config/plus-config.php:391
+msgid "Choose a Theme"
+msgstr ""
+
+#: admin/config/plus-config.php:50
+msgid ""
+"Here you can choose the theme you want, customize it or create a totally new "
+"one!"
+msgstr ""
+
+#: admin/config/plus-config.php:75 admin/config/plus-config.php:82
+msgid "Logo Settings"
+msgstr ""
+
+#: admin/config/plus-config.php:87
+#: modules/login_page_manager/config/login_page_manager-settings.php:101
+#: modules/login_page_manager/config/login_page_manager-settings.php:112
+msgid "Logo URL"
+msgstr ""
+
+#: admin/config/plus-config.php:88
+msgid "User will be redirected to this mentioned url when clicking the logo."
+msgstr ""
+
+#: admin/config/plus-config.php:89
+msgid ""
+"If you need to redirect to the wordpress admin area, use the <code>%admin_url"
+"%</code> tag."
+msgstr ""
+
+#: admin/config/plus-config.php:95
+msgid "Admin Logo Type"
+msgstr ""
+
+#: admin/config/plus-config.php:96
+msgid "Choose a logo style to use in the admin area"
+msgstr ""
+
+#: admin/config/plus-config.php:115
+msgid "Logo Image"
+msgstr ""
+
+#: admin/config/plus-config.php:116
+msgid "Upload your own logo of 200px * 44px (width*height)"
+msgstr ""
+
+#: admin/config/plus-config.php:118 admin/config/plus-config.php:130
+#: admin/config/plus-config.php:191 admin/config/plus-config.php:226
+#: admin/config/plus-config.php:261
+#: modules/login_page_manager/config/login_page_manager-settings.php:71
+msgid "Choose Logo"
+msgstr ""
+
+#: admin/config/plus-config.php:119 admin/config/plus-config.php:131
+#: modules/login_page_manager/config/login_page_manager-settings.php:72
+msgid "Choose an image"
+msgstr ""
+
+#: admin/config/plus-config.php:120 admin/config/plus-config.php:132
+#: admin/config/plus-config.php:193 admin/config/plus-config.php:228
+#: admin/config/plus-config.php:263
+#: modules/login_page_manager/config/login_page_manager-settings.php:73
+msgid "Use this logo"
+msgstr ""
+
+#: admin/config/plus-config.php:127
+msgid "Logo Image Collapsed Menu"
+msgstr ""
+
+#: admin/config/plus-config.php:128
+msgid "Upload your own logo of 44px * 44px (width*height)"
+msgstr ""
+
+#: admin/config/plus-config.php:149
+msgid "Logo Icon"
+msgstr ""
+
+#: admin/config/plus-config.php:150
+msgid "Choose an icon for the logo"
+msgstr ""
+
+#: admin/config/plus-config.php:156
+msgid "Logo Text"
+msgstr ""
+
+#: admin/config/plus-config.php:157
+msgid "Enter the text to use in the logo"
+msgstr ""
+
+#: admin/config/plus-config.php:158
+msgid ""
+"Ex: &ltstrong&gtPlus&lt/strong&gt Admin [subtitle]White label WordPress "
+"Admin Theme[/subtitle]"
+msgstr ""
+
+#: admin/config/plus-config.php:159
+msgid ""
+"<strong>Plus</strong> Admin [subtitle]White label WordPress Admin Theme[/"
+"subtitle]"
+msgstr ""
+
+#: admin/config/plus-config.php:168
+msgid "Favicon Logo"
+msgstr ""
+
+#: admin/config/plus-config.php:169
+msgid "Use custom favicon for admin area"
+msgstr ""
+
+#: admin/config/plus-config.php:171 admin/config/plus-config.php:206
+#: admin/config/plus-config.php:241 admin/config/plus-config.php:293
+#: admin/config/plus-config.php:304 admin/config/plus-config.php:353
+#: admin/config/plus-config.php:365 admin/config/plus-config.php:437
+#: admin/config/plus-config.php:510 admin/config/plus-config.php:520
+#: admin/config/plus-config.php:530 admin/config/plus-config.php:540
+#: admin/config/plus-config.php:561 admin/config/plus-config.php:616
+#: admin/config/plus-config.php:627 admin/config/plus-config.php:643
+#: admin/config/plus-config.php:669 admin/config/plus-config.php:685
+#: admin/config/plus-config.php:729 admin/config/plus-config.php:748
+#: admin/config/plus-config.php:802 admin/config/plus-config.php:812
+#: admin/config/plus-config.php:863 admin/config/plus-config.php:874
+#: admin/config/plus-config.php:972 admin/config/plus-config.php:982
+#: adminframework/fields/custom_userrole/custom_userrole.php:39
+#: adminframework/fields/navbar_builder/navbar_builder.php:219
+#: adminframework/fields/navbar_builder/navbar_builder.php:286
+#: adminframework/fields/navbar_builder/navbar_builder.php:308
+#: adminframework/fields/navbar_builder/navbar_builder.php:322
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:52
+#: modules/admin_menu_builder/includes/edit-panel.php:100
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:55
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:34
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:46
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:33
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:44
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:65
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:32
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:52
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:77
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:87
+#: modules/login_page_manager/config/login_page_manager-settings.php:57
+#: modules/login_page_manager/config/login_page_manager-settings.php:83
+#: modules/login_page_manager/config/login_page_manager-settings.php:104
+#: modules/login_page_manager/config/login_page_manager-settings.php:124
+#: modules/login_page_manager/config/login_page_manager-settings.php:144
+#: modules/login_page_manager/config/login_page_manager-settings.php:162
+#: modules/login_page_manager/config/login_page_manager-settings.php:182
+#: modules/login_page_manager/config/login_page_manager-settings.php:200
+#: modules/login_page_manager/config/login_page_manager-settings.php:220
+#: modules/login_page_manager/config/login_page_manager-settings.php:240
+#: modules/login_page_manager/config/login_page_manager-settings.php:260
+#: modules/login_page_manager/config/login_page_manager-settings.php:279
+#: modules/login_page_manager/config/login_page_manager-settings.php:312
+#: modules/login_page_manager/config/login_page_manager-settings.php:332
+#: modules/login_page_manager/config/login_page_manager-settings.php:351
+#: modules/login_page_manager/config/login_page_manager-settings.php:376
+#: modules/login_page_manager/config/login_page_manager-settings.php:411
+#: modules/login_page_manager/config/login_page_manager-settings.php:449
+#: modules/login_page_manager/config/login_page_manager-settings.php:464
+#: modules/login_page_manager/config/login_page_manager-settings.php:490
+#: modules/login_page_manager/config/login_page_manager-settings.php:517
+#: modules/login_page_manager/config/login_page_manager-settings.php:544
+#: modules/login_page_manager/config/login_page_manager-settings.php:631
+#: modules/login_page_manager/config/login_page_manager-settings.php:657
+#: modules/login_page_manager/config/login_page_manager-settings.php:680
+#: modules/login_page_manager/config/login_page_manager-settings.php:706
+#: modules/login_page_manager/config/login_page_manager-settings.php:747
+msgid "Yes"
+msgstr ""
+
+#: admin/config/plus-config.php:172 admin/config/plus-config.php:207
+#: admin/config/plus-config.php:242 admin/config/plus-config.php:294
+#: admin/config/plus-config.php:305 admin/config/plus-config.php:354
+#: admin/config/plus-config.php:366 admin/config/plus-config.php:438
+#: admin/config/plus-config.php:511 admin/config/plus-config.php:521
+#: admin/config/plus-config.php:531 admin/config/plus-config.php:541
+#: admin/config/plus-config.php:562 admin/config/plus-config.php:617
+#: admin/config/plus-config.php:628 admin/config/plus-config.php:644
+#: admin/config/plus-config.php:670 admin/config/plus-config.php:686
+#: admin/config/plus-config.php:730 admin/config/plus-config.php:749
+#: admin/config/plus-config.php:803 admin/config/plus-config.php:813
+#: admin/config/plus-config.php:864 admin/config/plus-config.php:875
+#: admin/config/plus-config.php:973 admin/config/plus-config.php:983
+#: adminframework/fields/custom_userrole/custom_userrole.php:40
+#: adminframework/fields/navbar_builder/navbar_builder.php:220
+#: adminframework/fields/navbar_builder/navbar_builder.php:287
+#: adminframework/fields/navbar_builder/navbar_builder.php:309
+#: adminframework/fields/navbar_builder/navbar_builder.php:323
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:53
+#: modules/admin_menu_builder/includes/edit-panel.php:101
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:56
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:35
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:47
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:34
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:45
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:66
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:33
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:53
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:78
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:88
+#: modules/login_page_manager/config/login_page_manager-settings.php:58
+#: modules/login_page_manager/config/login_page_manager-settings.php:84
+#: modules/login_page_manager/config/login_page_manager-settings.php:105
+#: modules/login_page_manager/config/login_page_manager-settings.php:125
+#: modules/login_page_manager/config/login_page_manager-settings.php:145
+#: modules/login_page_manager/config/login_page_manager-settings.php:163
+#: modules/login_page_manager/config/login_page_manager-settings.php:183
+#: modules/login_page_manager/config/login_page_manager-settings.php:201
+#: modules/login_page_manager/config/login_page_manager-settings.php:221
+#: modules/login_page_manager/config/login_page_manager-settings.php:241
+#: modules/login_page_manager/config/login_page_manager-settings.php:261
+#: modules/login_page_manager/config/login_page_manager-settings.php:280
+#: modules/login_page_manager/config/login_page_manager-settings.php:313
+#: modules/login_page_manager/config/login_page_manager-settings.php:333
+#: modules/login_page_manager/config/login_page_manager-settings.php:352
+#: modules/login_page_manager/config/login_page_manager-settings.php:377
+#: modules/login_page_manager/config/login_page_manager-settings.php:412
+#: modules/login_page_manager/config/login_page_manager-settings.php:450
+#: modules/login_page_manager/config/login_page_manager-settings.php:465
+#: modules/login_page_manager/config/login_page_manager-settings.php:491
+#: modules/login_page_manager/config/login_page_manager-settings.php:518
+#: modules/login_page_manager/config/login_page_manager-settings.php:545
+#: modules/login_page_manager/config/login_page_manager-settings.php:632
+#: modules/login_page_manager/config/login_page_manager-settings.php:658
+#: modules/login_page_manager/config/login_page_manager-settings.php:681
+#: modules/login_page_manager/config/login_page_manager-settings.php:707
+#: modules/login_page_manager/config/login_page_manager-settings.php:748
+msgid "No"
+msgstr ""
+
+#: admin/config/plus-config.php:182 admin/config/plus-config.php:217
+#: admin/config/plus-config.php:252
+msgid "Notice"
+msgstr ""
+
+#: admin/config/plus-config.php:183
+msgid ""
+"We'll automatically generate 3 different favicon sizes: 16x16px, 32x32px, "
+"96x96px. <br> To get the best results, upload an image of at least 96x96 "
+"pixels."
+msgstr ""
+
+#: admin/config/plus-config.php:188
+msgid "Favicon Logo Image"
+msgstr ""
+
+#: admin/config/plus-config.php:189
+msgid "Upload an image to use as a favicon"
+msgstr ""
+
+#: admin/config/plus-config.php:192
+msgid "Choose an image to use as a Favicon"
+msgstr ""
+
+#: admin/config/plus-config.php:203
+msgid "Apple Devices Logo"
+msgstr ""
+
+#: admin/config/plus-config.php:204
+msgid "Use custom logo for Apple devices"
+msgstr ""
+
+#: admin/config/plus-config.php:218
+msgid ""
+"We'll automatically generate 9 different device icon sizes: 57x57px, "
+"60x60px, 72x72px, 76x76px, 114x114px, 120x120px, 144x144px, 152x152px, "
+"180x180px. <br> To get the best results, upload an image of at least 180x180 "
+"pixels."
+msgstr ""
+
+#: admin/config/plus-config.php:223
+msgid "Apple Devices Logo Image"
+msgstr ""
+
+#: admin/config/plus-config.php:224
+msgid "Upload an image to use as a logo for Apple devices"
+msgstr ""
+
+#: admin/config/plus-config.php:227
+msgid "Choose an image to use as a Apple devices logo"
+msgstr ""
+
+#: admin/config/plus-config.php:238
+msgid "Android Devices Logo"
+msgstr ""
+
+#: admin/config/plus-config.php:239
+msgid "Use custom logo for Android devices"
+msgstr ""
+
+#: admin/config/plus-config.php:253
+msgid ""
+"We'll automatically generate 6 different device icon sizes: 36x36px, "
+"48x48px, 72x72px, 96x96px, 144x144px, 192x192px. <br> To get the best "
+"results, upload an image of at least 192x192 pixels."
+msgstr ""
+
+#: admin/config/plus-config.php:258
+msgid "Android Devices Logo Image"
+msgstr ""
+
+#: admin/config/plus-config.php:259
+msgid "Upload an image to use as a logo for Android devices"
+msgstr ""
+
+#: admin/config/plus-config.php:262
+msgid "Choose an image to use as a Android devices logo"
+msgstr ""
+
+#: admin/config/plus-config.php:278 admin/config/plus-config.php:290
+msgid "Site Generator Replacement"
+msgstr ""
+
+#: admin/config/plus-config.php:285
+msgid "Site \"Generator\" Replacement"
+msgstr ""
+
+#: admin/config/plus-config.php:291
+msgid "Use custom site generator replacement"
+msgstr ""
+
+#: admin/config/plus-config.php:301
+msgid "Site Generator Visibility"
+msgstr ""
+
+#: admin/config/plus-config.php:302
+msgid "Completely hide site generator text"
+msgstr ""
+
+#: admin/config/plus-config.php:311
+msgid "Custom Site Generator Text"
+msgstr ""
+
+#: admin/config/plus-config.php:312
+msgid ""
+"Enter the \"generator\" information text from WordPress to something you "
+"prefer."
+msgstr ""
+
+#: admin/config/plus-config.php:313
+msgid "CastorStudio.com"
+msgstr ""
+
+#: admin/config/plus-config.php:318
+msgid "Custom Site Generator Version Text"
+msgstr ""
+
+#: admin/config/plus-config.php:319
+msgid "Enter the \"generator version\" text."
+msgstr ""
+
+#: admin/config/plus-config.php:320
+msgid "1.2.0"
+msgstr ""
+
+#: admin/config/plus-config.php:325
+msgid "Custom Site Generator URL"
+msgstr ""
+
+#: admin/config/plus-config.php:326
+msgid "Enter the \"generator url\" from WordPress to something you prefer."
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: admin/config/plus-config.php:327
+msgid "http://www.castorstudio.com"
+msgstr ""
+
+#: admin/config/plus-config.php:338 admin/config/plus-config.php:345
+#: admin/config/plus-config.php:350
+msgid "Page Loader"
+msgstr ""
+
+#: admin/config/plus-config.php:351
+msgid "Use custom page load progress indicator"
+msgstr ""
+
+#: admin/config/plus-config.php:361
+msgid "Custom Colors"
+msgstr ""
+
+#: admin/config/plus-config.php:362
+msgid "Use custom progress loader colors"
+msgstr ""
+
+#: admin/config/plus-config.php:363
+msgid ""
+"Important: By default, the progress bar uses the theme primary and primary "
+"light colors."
+msgstr ""
+
+#: admin/config/plus-config.php:377
+msgid "Bar Primary Color"
+msgstr ""
+
+#: admin/config/plus-config.php:383
+msgid "Bar Secondary Color"
+msgstr ""
+
+#: admin/config/plus-config.php:422 admin/config/plus-config.php:429
+#: adminframework/fields/builder_navbar/builder_navbar.php:50
+msgid "User Profile"
+msgstr ""
+
+#: admin/config/plus-config.php:434
+msgid "Personal Settings"
+msgstr ""
+
+#: admin/config/plus-config.php:435
+msgid "Hide all user profile Personal Settings section"
+msgstr ""
+
+#: admin/config/plus-config.php:444
+msgid "User Profile Personal Settings"
+msgstr ""
+
+#: admin/config/plus-config.php:445
+msgid "Check to hide the section"
+msgstr ""
+
+#: admin/config/plus-config.php:447
+msgid "Hide Visual editor"
+msgstr ""
+
+#: admin/config/plus-config.php:448
+msgid "Hide Syntaxis Highlighting"
+msgstr ""
+
+#: admin/config/plus-config.php:449
+msgid "Hide Admin colors schemes"
+msgstr ""
+
+#: admin/config/plus-config.php:450
+msgid "Hide Keyboard shortcuts"
+msgstr ""
+
+#: admin/config/plus-config.php:451
+msgid "Hide Admin Bar"
+msgstr ""
+
+#: admin/config/plus-config.php:452
+msgid "Hide Language selector"
+msgstr ""
+
+#: admin/config/plus-config.php:468 admin/config/plus-config.php:475
+msgid "Top Navbar Builder"
+msgstr ""
+
+#: admin/config/plus-config.php:479
+msgid ""
+"Create your own navbar layout, add the elements you want and rearrange them "
+"with drag&drop."
+msgstr ""
+
+#: admin/config/plus-config.php:495 admin/config/plus-config.php:502
+msgid "Admin Menu"
+msgstr ""
+
+#: admin/config/plus-config.php:507
+msgid "Custom Scrollbar"
+msgstr ""
+
+#: admin/config/plus-config.php:508
+msgid "Use custom scrollbar style"
+msgstr ""
+
+#: admin/config/plus-config.php:517
+msgid "Replace Core Icons"
+msgstr ""
+
+#: admin/config/plus-config.php:518
+msgid "Replace default dashicons for menu core items"
+msgstr ""
+
+#: admin/config/plus-config.php:527
+msgid "Accordion Submenu"
+msgstr ""
+
+#: admin/config/plus-config.php:528
+msgid "Collapse submenu as an accordion menu"
+msgstr ""
+
+#: admin/config/plus-config.php:537
+msgid "Autocollapse Submenu"
+msgstr ""
+
+#: admin/config/plus-config.php:538
+msgid "Automatically collapse the submenu when collapsing the sidebar"
+msgstr ""
+
+#: admin/config/plus-config.php:547
+msgid "Sidebar Mode"
+msgstr ""
+
+#: admin/config/plus-config.php:549
+msgid "Fixed Sidebar Menu"
+msgstr ""
+
+#: admin/config/plus-config.php:551
+msgid "Off Canvas Sidebar Menu"
+msgstr ""
+
+#: admin/config/plus-config.php:558
+msgid "Sidebar Autofold"
+msgstr ""
+
+#: admin/config/plus-config.php:559
+msgid "Auto collapse/hide the sidebar on mobile devices"
+msgstr ""
+
+#: admin/config/plus-config.php:569
+msgid "Sidebar Autofold Breakpoint"
+msgstr ""
+
+#: admin/config/plus-config.php:571
+msgid "960 or less pixels width"
+msgstr ""
+
+#: admin/config/plus-config.php:572
+msgid "782 or less pixels width"
+msgstr ""
+
+#: admin/config/plus-config.php:573
+msgid "600 or less pixels width"
+msgstr ""
+
+#: admin/config/plus-config.php:574
+msgid "400 or less pixels width"
+msgstr ""
+
+#: admin/config/plus-config.php:581
+msgid "Remember Current Visibility Status"
+msgstr ""
+
+#: admin/config/plus-config.php:582
+msgid "Maintains the visibility status of the sidebar through different pages"
+msgstr ""
+
+#: admin/config/plus-config.php:584
+msgid "Yes, always remember the current status"
+msgstr ""
+
+#: admin/config/plus-config.php:585
+msgid "Remember only on Fixed sidebar mode"
+msgstr ""
+
+#: admin/config/plus-config.php:586
+msgid "Remember only on Off Canvas sidebar mode"
+msgstr ""
+
+#: admin/config/plus-config.php:587
+msgid "No, never remember the current state"
+msgstr ""
+
+#: admin/config/plus-config.php:600 admin/config/plus-config.php:607
+#: admin/config/plus-config.php:624
+msgid "Footer"
+msgstr ""
+
+#: admin/config/plus-config.php:612
+msgid "Fixed Footer"
+msgstr ""
+
+#: admin/config/plus-config.php:613
+msgid "Choose whether to keep the footer fixed at the bottom of the page"
+msgstr ""
+
+#: admin/config/plus-config.php:614
+msgid "Use fixed footer"
+msgstr ""
+
+#: admin/config/plus-config.php:625
+msgid "Use custom footer text"
+msgstr ""
+
+#: admin/config/plus-config.php:640
+msgid "Footer Text Visibility"
+msgstr ""
+
+#: admin/config/plus-config.php:641
+msgid "Hide footer text"
+msgstr ""
+
+#: admin/config/plus-config.php:650
+msgid "Custom Footer Text"
+msgstr ""
+
+#: admin/config/plus-config.php:651
+msgid ""
+"Enter the text that displays in the footer bar. HTML markup can be used."
+msgstr ""
+
+#: admin/config/plus-config.php:652
+msgid ""
+"PLUS Admin Powered by <a href=\"http://www.castorstudio.com\" target=\"_blank"
+"\">CastorStudio</a>"
+msgstr ""
+
+#: admin/config/plus-config.php:666
+msgid "Footer Version"
+msgstr ""
+
+#: admin/config/plus-config.php:667
+msgid "Use custom footer version text"
+msgstr ""
+
+#: admin/config/plus-config.php:682
+msgid "Footer Version Text Visibility"
+msgstr ""
+
+#: admin/config/plus-config.php:683
+msgid "Hide footer version text"
+msgstr ""
+
+#: admin/config/plus-config.php:692
+msgid "Custom Version Text"
+msgstr ""
+
+#: admin/config/plus-config.php:693
+msgid ""
+"Enter the text that displays in the footer version bar. HTML markup can be "
+"used."
+msgstr ""
+
+#: admin/config/plus-config.php:694
+#, php-format
+msgid ""
+"<a href=\"http://www.castorstudio.com/plus-admin-wordpress-white-label-admin-"
+"theme\" target=\"_blank\">%s</a>"
+msgstr ""
+
+#: admin/config/plus-config.php:714 admin/config/plus-config.php:721
+#: admin/config/plus-config.php:726
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/config/plus-config.php:727
+msgid "Use custom CSS code"
+msgstr ""
+
+#: admin/config/plus-config.php:737
+msgid "Add new custom CSS code"
+msgstr ""
+
+#: admin/config/plus-config.php:738
+msgid "New custom CSS code"
+msgstr ""
+
+#: admin/config/plus-config.php:739
+msgid "Custom CSS Code"
+msgstr ""
+
+#: admin/config/plus-config.php:745
+msgid "Code block status"
+msgstr ""
+
+#: admin/config/plus-config.php:746
+msgid "Enable use of this custom CSS code"
+msgstr ""
+
+#: admin/config/plus-config.php:755 admin/config/plus-config.php:826
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:72
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:59
+msgid "User Role"
+msgstr ""
+
+#: admin/config/plus-config.php:761
+msgid "CSS Code"
+msgstr ""
+
+#: admin/config/plus-config.php:762
+msgid ""
+"The code you paste here will be applied in all your admin and login area."
+msgstr ""
+
+#: admin/config/plus-config.php:763
+msgid ""
+"Information: If you need to overwrite any CSS setting, you can add !"
+"important at the end of CSS property. eg: margin: 10px !important;"
+msgstr ""
+
+#: admin/config/plus-config.php:781 admin/config/plus-config.php:788
+#: admin/config/plus-config.php:793
+#: modules/login_page_manager/config/login_page_manager-settings.php:48
+msgid "General Settings"
+msgstr ""
+
+#: admin/config/plus-config.php:798
+msgid "Reset Admin Settings"
+msgstr ""
+
+#: admin/config/plus-config.php:799
+msgid ""
+"When you deactivate the plugin all your preferences will be deleted or reset "
+"to their default value."
+msgstr ""
+
+#: admin/config/plus-config.php:800
+msgid "Reset admin settings on plugin deactivation"
+msgstr ""
+
+#: admin/config/plus-config.php:809
+msgid "Admin Name on Right Now Dashboard Widget"
+msgstr ""
+
+#: admin/config/plus-config.php:810
+msgid "Hide the PLUS Admin version on Dashboard"
+msgstr ""
+
+#: admin/config/plus-config.php:821
+msgid "Plugin Settings access rights"
+msgstr ""
+
+#: admin/config/plus-config.php:822
+msgid "Allow access to plugin settings to this specific users"
+msgstr ""
+
+#: admin/config/plus-config.php:824
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:61
+msgid "All Users"
+msgstr ""
+
+#: admin/config/plus-config.php:825
+msgid "Super Admin"
+msgstr ""
+
+#: admin/config/plus-config.php:834
+msgid "Allow Access by User"
+msgstr ""
+
+#: admin/config/plus-config.php:835
+msgid "Allow access only to this specific user"
+msgstr ""
+
+#: admin/config/plus-config.php:836
+msgid "Enter the username or user ID"
+msgstr ""
+
+#: admin/config/plus-config.php:844
+msgid "Allow Access by Userrole"
+msgstr ""
+
+#: admin/config/plus-config.php:845
+msgid "Allow access only to this specific userrole"
+msgstr ""
+
+#: admin/config/plus-config.php:854
+msgid "User Interface Settings"
+msgstr ""
+
+#: admin/config/plus-config.php:859
+msgid "Custom Body Scrollbars"
+msgstr ""
+
+#: admin/config/plus-config.php:860
+msgid "Same as sidebar scrollbar"
+msgstr ""
+
+#: admin/config/plus-config.php:861
+msgid "Use custom body scrollbar"
+msgstr ""
+
+#: admin/config/plus-config.php:870
+msgid "Hide Page Title"
+msgstr ""
+
+#: admin/config/plus-config.php:871
+msgid "Useful when displaying the page title in the top navbar"
+msgstr ""
+
+#: admin/config/plus-config.php:872
+msgid "Hide the original page title"
+msgstr ""
+
+#: admin/config/plus-config.php:881
+msgid "Custom Title Tag"
+msgstr ""
+
+#: admin/config/plus-config.php:882
+msgid "Use custom text for the page title tag"
+msgstr ""
+
+#: admin/config/plus-config.php:883
+msgid ""
+"Use the <code>%full_title%</code> tag if you need to keep the page title "
+"with extra content. <br>Use the <code>%title%</code> tag if you need just "
+"the page title without extra content. <br>Use the <code>%site_name%</code> "
+"tag to refer your site name. <br> Leave blank to use the default page title"
+msgstr ""
+
+#: admin/config/plus-config.php:889
+msgid "Body Content Layout Type"
+msgstr ""
+
+#: admin/config/plus-config.php:890
+msgid "Choose the layout type that will have the body content of the site"
+msgstr ""
+
+#: admin/config/plus-config.php:892
+msgid "Fluid Layout"
+msgstr ""
+
+#: admin/config/plus-config.php:893
+msgid "Boxed Layout"
+msgstr ""
+
+#: admin/config/plus-config.php:901
+msgid "Body Content: Boxed Layout Width"
+msgstr ""
+
+#: admin/config/plus-config.php:902
+msgid ""
+"The body content max-width will be adjusted to the value you choose here"
+msgstr ""
+
+#: admin/config/plus-config.php:903
+msgid ""
+"Keep in mind that many plugins may have a minimum width set to work "
+"properly. If you experience any problem you can add a custom CSS rule to "
+"solve it."
+msgstr ""
+
+#: admin/config/plus-config.php:911
+msgid "Max Width"
+msgstr ""
+
+#: admin/config/plus-config.php:916
+msgid "px"
+msgstr ""
+
+#: admin/config/plus-config.php:932 admin/config/plus-config.php:939
+msgid "Network Settings"
+msgstr ""
+
+#: admin/config/plus-config.php:944
+msgid "Network Sites Sidebar"
+msgstr ""
+
+#: admin/config/plus-config.php:949
+msgid "Sidebar Position"
+msgstr ""
+
+#: admin/config/plus-config.php:959
+msgid "Sites Sorting"
+msgstr ""
+
+#: admin/config/plus-config.php:961
+#: adminframework/fields/css_builder/css_builder.php:82
+#: adminframework/fields/typography_advanced/typography_advanced.php:234
+msgid "None"
+msgstr ""
+
+#: admin/config/plus-config.php:962
+msgid "Ascending Sort"
+msgstr ""
+
+#: admin/config/plus-config.php:963
+msgid "Descending Sort"
+msgstr ""
+
+#: admin/config/plus-config.php:969
+msgid "Main Site Sort"
+msgstr ""
+
+#: admin/config/plus-config.php:970
+msgid "Exclude main site from sites sorting"
+msgstr ""
+
+#: admin/config/plus-config.php:979
+msgid "Search Field"
+msgstr ""
+
+#: admin/config/plus-config.php:980
+msgid "Use search field on the sidebar"
+msgstr ""
+
+#: admin/config/plus-config.php:996 admin/config/plus-config.php:1003
+msgid "Modules"
+msgstr ""
+
+#: admin/config/plus-config.php:1007
+msgid "With modules you can extend the functionality of PLUS Admin"
+msgstr ""
+
+#: admin/config/plus-config.php:1031
+msgid "Backup"
+msgstr ""
+
+#: admin/config/plus-config.php:1036
+msgid "You can save your current options. Download a Backup and Import."
+msgstr ""
+
+#: adminframework/classes/framework.class.php:95
+msgid "Save"
+msgstr ""
+
+#: adminframework/classes/framework.class.php:96
+msgid "Restore"
+msgstr ""
+
+#: adminframework/classes/framework.class.php:97
+#: adminframework/fields/backup/backup.php:47
+msgid "Reset All Options"
+msgstr ""
+
+#: adminframework/classes/framework.class.php:266
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: adminframework/classes/framework.class.php:269
+msgid "Default options restored."
+msgstr ""
+
+#: adminframework/classes/framework.class.php:292
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: adminframework/classes/options.class.php:211
+msgid "CONFIG"
+msgstr ""
+
+#: adminframework/classes/options.class.php:217
+#: adminframework/classes/options.class.php:237
+msgid "USAGE"
+msgstr ""
+
+#: adminframework/classes/options.class.php:223
+msgid "VALUE"
+msgstr ""
+
+#: adminframework/classes/options.class.php:241
+msgid "ID"
+msgstr ""
+
+#: adminframework/classes/options.class.php:345
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: adminframework/classes/options.class.php:381
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:120
+msgid "All Pages"
+msgstr ""
+
+#: adminframework/classes/options.class.php:1035
+msgid "Word Count"
+msgstr ""
+
+#: adminframework/classes/options.class.php:1035
+msgid "Character Count"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:207
+#: adminframework/classes/posttype/posttype.php:208
+#: adminframework/classes/posttype/posttype.php:209
+#: adminframework/classes/posttype/posttype.php:210
+#: adminframework/classes/posttype/posttype.php:502
+#: adminframework/classes/posttype/taxonomy.php:120
+#: adminframework/classes/posttype/taxonomy.php:121
+#: adminframework/classes/posttype/taxonomy.php:122
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:211
+msgid "Add New"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:212
+#: adminframework/classes/posttype/taxonomy.php:127
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:213
+#: adminframework/classes/posttype/taxonomy.php:124
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:214
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:215
+#: adminframework/classes/posttype/taxonomy.php:125
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:216
+#: adminframework/classes/posttype/taxonomy.php:131
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:217
+#: adminframework/classes/posttype/taxonomy.php:136
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:218
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:219
+#: adminframework/classes/posttype/taxonomy.php:130
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:220
+#, php-format
+msgid "Enter %s title here"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:436
+#, php-format
+msgid "Show all %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:584
+#, php-format
+msgid "No %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:716
+#, php-format
+msgid "%2$s restored to revision from %1$s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:722
+#: adminframework/classes/posttype/posttype.php:725
+#: adminframework/classes/posttype/posttype.php:727
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:723
+msgid "Custom field updated."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:724
+msgid "Custom field deleted."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:728
+#, php-format
+msgid "%s saved."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:729
+#, php-format
+msgid "%s submitted."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:731
+#, php-format
+msgid "%2$s scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:732
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:735
+#, php-format
+msgid "%s draft updated."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:755
+#: adminframework/classes/posttype/posttype.php:760
+#: adminframework/classes/posttype/posttype.php:765
+#: adminframework/classes/posttype/posttype.php:770
+#: adminframework/classes/posttype/posttype.php:775
+#, php-format
+msgid "%s "
+msgid_plural "%s "
+msgstr[0] ""
+msgstr[1] ""
+
+#: adminframework/classes/posttype/taxonomy.php:123
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:126
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:128
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:129
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:132
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:133
+#, php-format
+msgid "Seperate %s with commas"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:134
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:135
+#, php-format
+msgid "Choose from most used %s"
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:87
+#: adminframework/classes/shortcode.class.php:95
+#: adminframework/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:97
+msgid "Select a shortcode"
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:98
+msgid "Please select a shortcode"
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:112
+msgid "Please select a shortcode from the above select field..."
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:114
+#: adminframework/functions/actions.php:156
+#: adminframework/functions/actions.php:240
+msgid "Loading..."
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:116
+msgid "Insert Shortcode"
+msgstr ""
+
+#: adminframework/fields/animate_css/animate_css.php:54
+msgid "Effect"
+msgstr ""
+
+#: adminframework/fields/animate_css/animate_css.php:62
+msgid "Run Once"
+msgstr ""
+
+#: adminframework/fields/animate_css/animate_css.php:63
+msgid "Run Infinite"
+msgstr ""
+
+#: adminframework/fields/animate_css/animate_css.php:67
+msgid "Iteration Count"
+msgstr ""
+
+#: adminframework/fields/animate_css/animate_css.php:82
+msgid "Iteration Delay"
+msgstr ""
+
+#: adminframework/fields/animate_css/animate_css.php:87
+msgid "ms."
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:21
+msgid "Fade FX"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:22
+msgid "Fade In"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:23
+msgid "Fade In Top"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:24
+msgid "Fade In Bottom"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:25
+msgid "Fade In Left"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:26
+msgid "Fade In Right"
+msgstr ""
+
+#: adminframework/fields/background/background.php:45
+#: adminframework/fields/background/background.php:46
+#: adminframework/fields/upload/upload.php:23
+#: adminframework/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: adminframework/fields/background/background.php:47
+#: adminframework/fields/image/image.php:24
+#: adminframework/fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: adminframework/fields/background/background.php:51
+#: adminframework/fields/image/image.php:22
+#: adminframework/fields/image/image.php:28
+msgid "Add Image"
+msgstr ""
+
+#: adminframework/fields/background/background.php:87
+#: adminframework/fields/file/file.php:56
+#: adminframework/fields/group/group.php:47
+#: adminframework/fields/group/group.php:127
+#: adminframework/fields/image/image.php:63
+msgid "Remove"
+msgstr ""
+
+#: adminframework/fields/background/background.php:127
+msgid "Repeat"
+msgstr ""
+
+#: adminframework/fields/background/background.php:150
+msgid "Position"
+msgstr ""
+
+#: adminframework/fields/background/background.php:166
+msgid "Attachment"
+msgstr ""
+
+#: adminframework/fields/background/background.php:185
+#: modules/login_page_manager/config/login_page_manager-settings.php:798
+msgid "Size"
+msgstr ""
+
+#: adminframework/fields/background/background.php:201
+#: adminframework/fields/box_shadow/box_shadow.php:129
+#: adminframework/fields/color_overlay/color_overlay.php:69
+msgid "Color"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:34
+msgid "Import a Backup"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:36
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:44
+msgid "Export and Download Backup"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:45
+msgid "or"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:48
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: adminframework/fields/border/border.php:65
+msgid "All borders"
+msgstr ""
+
+#: adminframework/fields/border/border.php:80
+msgid "Top Border"
+msgstr ""
+
+#: adminframework/fields/border/border.php:95
+msgid "Right Border"
+msgstr ""
+
+#: adminframework/fields/border/border.php:110
+msgid "Bottom Border"
+msgstr ""
+
+#: adminframework/fields/border/border.php:125
+msgid "Left Border"
+msgstr ""
+
+#: adminframework/fields/border/border.php:142
+#: adminframework/fields/css_builder/css_builder.php:79
+msgid "Border Style"
+msgstr ""
+
+#: adminframework/fields/border/border.php:157
+#: adminframework/fields/css_builder/css_builder.php:67
+#: themes/custom/custom.php:78 themes/custom/custom.php:205
+#: themes/custom/custom.php:295 themes/custom/custom.php:483
+#: themes/custom/custom.php:504 themes/custom/custom.php:525
+#: themes/custom/custom.php:546 themes/custom/custom.php:567
+#: themes/custom/custom.php:588 themes/custom/custom.php:624
+#: themes/custom/custom.php:701
+msgid "Border Color"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:66
+msgid "X Offset"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:82
+msgid "Y Offset"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:98
+msgid "Blur"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:114
+msgid "Spread"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:143
+msgid "Type"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:157
+msgid "Unit"
+msgstr ""
+
+#: adminframework/fields/builder_navbar/builder_navbar.php:30
+#: adminframework/fields/navbar_builder/navbar_builder.php:171
+#: adminframework/fields/navbar_builder/navbar_builder.php:305
+msgid "Notifications"
+msgstr ""
+
+#: adminframework/fields/builder_navbar/builder_navbar.php:34
+#: adminframework/fields/navbar_builder/navbar_builder.php:172
+msgid "View Site"
+msgstr ""
+
+#: adminframework/fields/builder_navbar/builder_navbar.php:38
+#: adminframework/fields/navbar_builder/navbar_builder.php:169
+msgid "Updates"
+msgstr ""
+
+#: adminframework/fields/builder_navbar/builder_navbar.php:42
+#: adminframework/fields/navbar_builder/navbar_builder.php:168
+msgid "Comments"
+msgstr ""
+
+#: adminframework/fields/builder_navbar/builder_navbar.php:46
+#: adminframework/fields/navbar_builder/navbar_builder.php:170
+msgid "New Content"
+msgstr ""
+
+#: adminframework/fields/button/button.php:17
+msgid "Button Name"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:54
+msgid "Regular"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:70
+msgid "Hover"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:86
+msgid "Visited"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:102
+msgid "Active"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:118
+msgid "Focus"
+msgstr ""
+
+#: adminframework/fields/color_overlay/color_overlay.php:80
+msgid "Blend Mode"
+msgstr ""
+
+#: adminframework/fields/color_overlay/color_overlay.php:94
+msgid "Blend Amount"
+msgstr ""
+
+#: adminframework/fields/color_overlay/color_overlay.php:99
+msgid "%"
+msgstr ""
+
+#: adminframework/fields/color_theme/color_theme.php:164
+msgid "Default Theme"
+msgstr ""
+
+#: adminframework/fields/color_theme/color_theme.php:252
+#: themes/custom/custom.php:37
+msgid "Select User Role"
+msgstr ""
+
+#: adminframework/fields/color_theme/color_theme.php:253
+msgid ""
+"Select a user role to customize. If you do not select any, the "
+"<strong>Default Theme</strong> style will be applied to all user roles."
+msgstr ""
+
+#: adminframework/fields/color_theme/color_theme.php:254
+msgid "Choose Color Scheme"
+msgstr ""
+
+#: adminframework/fields/color_theme/color_theme.php:255
+msgid ""
+"Choose the color scheme you want, customize it and use it or save it as a "
+"new one!"
+msgstr ""
+
+#: adminframework/fields/color_theme/color_theme.php:256
+msgid "Save Color Scheme"
+msgstr ""
+
+#: adminframework/fields/color_theme/color_theme.php:257
+msgid "Export"
+msgstr ""
+
+#: adminframework/fields/color_theme/color_theme.php:258
+msgid "Import"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:54
+msgid "Darker"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:70
+msgid "Dark"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:86
+msgid "Normal"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:102
+msgid "Light"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:118
+msgid "Lighter"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:38
+msgid "Margin"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:42
+msgid "Border"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:45
+msgid "Padding"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:61
+#: themes/custom/custom.php:73 themes/custom/custom.php:125
+#: themes/custom/custom.php:195 themes/custom/custom.php:226
+#: themes/custom/custom.php:242 themes/custom/custom.php:258
+#: themes/custom/custom.php:274 themes/custom/custom.php:285
+#: themes/custom/custom.php:311 themes/custom/custom.php:327
+#: themes/custom/custom.php:343 themes/custom/custom.php:359
+#: themes/custom/custom.php:441 themes/custom/custom.php:478
+#: themes/custom/custom.php:499 themes/custom/custom.php:520
+#: themes/custom/custom.php:541 themes/custom/custom.php:562
+#: themes/custom/custom.php:583 themes/custom/custom.php:619
+#: themes/custom/custom.php:696
+msgid "Background Color"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:73
+#: themes/custom/custom.php:68 themes/custom/custom.php:120
+#: themes/custom/custom.php:190 themes/custom/custom.php:221
+#: themes/custom/custom.php:237 themes/custom/custom.php:253
+#: themes/custom/custom.php:269 themes/custom/custom.php:306
+#: themes/custom/custom.php:322 themes/custom/custom.php:338
+#: themes/custom/custom.php:354 themes/custom/custom.php:436
+#: themes/custom/custom.php:473 themes/custom/custom.php:494
+#: themes/custom/custom.php:515 themes/custom/custom.php:536
+#: themes/custom/custom.php:557 themes/custom/custom.php:614
+#: themes/custom/custom.php:691
+msgid "Text Color"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:83
+msgid "Solid"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:84
+msgid "Dashed"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:85
+msgid "Dotted"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:86
+msgid "Double"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:87
+msgid "Groove"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:88
+msgid "Ridge"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:89
+msgid "Inset"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:90
+msgid "Outset"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:96
+msgid "Border Radius"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:102
+msgid "Top Left"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:112
+msgid "Top Right"
+msgstr ""
+
+#: adminframework/fields/css_builder/css_builder.php:121
+#: adminframework/fields/css_builder/css_builder.php:130
+msgid "Bottom Left"
+msgstr ""
+
+#: adminframework/fields/custom_userrole/custom_userrole.php:37
+#, php-format
+msgid "Redirect %s users to:"
+msgstr ""
+
+#: adminframework/fields/custom_userrole/custom_userrole.php:52
+msgid "<p class=\"cssf-text-muted\">Leave blank to use the default url.</p>"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:31
+msgid "Defaults"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:38
+msgid "Material Design Easing Curves"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:44
+msgid "Penner Equations (approximated)"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:72
+#: adminframework/fields/easing_editor/easing_editor.php:73
+msgid "Custom Easing"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:107
+msgid "Toggle Editor"
+msgstr ""
+
+#: adminframework/fields/file/file.php:22
+#: adminframework/fields/file/file.php:29
+msgid "Add File"
+msgstr ""
+
+#: adminframework/fields/file/file.php:23
+msgid "Upload File"
+msgstr ""
+
+#: adminframework/fields/file/file.php:24
+msgid "Use File"
+msgstr ""
+
+#: adminframework/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: adminframework/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: adminframework/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: adminframework/fields/group/group.php:23
+msgid "Adding"
+msgstr ""
+
+#: adminframework/fields/icon/icon.php:25
+#: adminframework/functions/actions.php:154
+msgid "Add Icon"
+msgstr ""
+
+#: adminframework/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: adminframework/fields/image/image.php:23
+msgid "Upload Image"
+msgstr ""
+
+#: adminframework/fields/image_gallery_custom/image_gallery_custom.php:52
+#: adminframework/functions/actions.php:238
+msgid "Add image"
+msgstr ""
+
+#: adminframework/fields/image_gallery_custom/image_gallery_custom.php:53
+msgid "Remove image"
+msgstr ""
+
+#: adminframework/fields/image_size/image_size.php:39
+msgid "Width"
+msgstr ""
+
+#: adminframework/fields/image_size/image_size.php:54
+msgid "Height"
+msgstr ""
+
+#: adminframework/fields/image_size/image_size.php:66
+msgid "Hard Crop ?"
+msgstr ""
+
+#: adminframework/fields/links/links.php:56
+msgid "URL :"
+msgstr ""
+
+#: adminframework/fields/links/links.php:57
+msgid "Title :"
+msgstr ""
+
+#: adminframework/fields/links/links.php:58
+msgid "Target :"
+msgstr ""
+
+#: adminframework/fields/links/links.php:59
+msgid "Select URL"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:115
+msgid "Drag & Drop some elements here"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:146
+#: modules/admin_menu_builder/includes/edit-panel.php:15
+msgid "Add New Element"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:164
+#: modules/admin_menu_builder/includes/edit-panel.php:34
+msgid "Element Type"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:166
+msgid "Customizable Elements"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:167
+msgid "User Account"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:175
+msgid "Sidebar Toggle"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:176
+msgid "Network Sites"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:177
+msgid "Custom Link"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:178
+msgid "Customizable Element"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:180
+msgid "Pre-defined Elements"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:181
+#: modules/admin_menu_builder/includes/edit-panel.php:122
+#: modules/login_page_manager/config/login_page_manager-settings.php:80
+msgid "Page Title"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:182
+msgid "Flexible Space"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:183
+msgid "Site Brand"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:186
+#: modules/admin_menu_builder/includes/edit-panel.php:45
+msgid "-- Select an element type --"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:195
+msgid "Element Visibility"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:196
+msgid "Set the visibility of the item according to different devices"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:197
+msgid "If you leave blank, the item will be hidden in all devices"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:201
+msgid "Select a device"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:203
+msgid "Desktop"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:204
+msgid "Tablet"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:205
+msgid "Mobile"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:206
+msgid "Small"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:216
+msgid "User Avatar"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:217
+msgid "Use user avatar image"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:230
+#: modules/admin_menu_builder/includes/edit-panel.php:66
+msgid "Icon"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:237
+msgid "Secondary Icon"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:238
+msgid "This icon is displayed to close the sidebar"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:248
+msgid "Custom Link Type"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:249
+msgid "Choose the type of link you want to use in this element"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:251
+#: modules/admin_menu_builder/includes/edit-panel.php:74
+msgid "Admin Page"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:252
+msgid "Internal Link"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:253
+msgid "External Link"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:261
+msgid "Custom Admin Page Link"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:262
+msgid "Choose the administration page to link to"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:264
+#: modules/admin_menu_builder/includes/edit-panel.php:88
+msgid "-- Choose an admin page --"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:273
+#: modules/admin_menu_builder/includes/edit-panel.php:78
+msgid "Custom URL"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:274
+msgid "Insert the URL where this element points"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:283
+msgid "Tooltip"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:284
+msgid "Use custom tooltip"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:295
+msgid "Tooltip Text"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:296
+msgid "Leave blank to use the default tooltip"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:306
+msgid "Show notifications bubble"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:319
+msgid "Show Label"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:320
+msgid "Show text label"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:331
+msgid "Element Label"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:338
+msgid "Container ID"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:345
+msgid "Container Class"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:352
+msgid "Wrapper Type"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:364
+msgid "Wrapper ID"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:371
+msgid "Wrapper Class"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:378
+msgid "Wrapper Additional Attributes"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:388
+#: modules/admin_menu_builder/includes/edit-panel.php:159
+msgid "<i class=\"cli cli-plus-circle\"></i> Add New Element"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:395
+#: modules/admin_menu_builder/includes/edit-panel.php:166
+msgid "<i class=\"cli cli-x\"></i> Cancel Edition"
+msgstr ""
+
+#: adminframework/fields/navbar_builder/navbar_builder.php:403
+#: modules/admin_menu_builder/includes/edit-panel.php:174
+msgid "<i class=\"cli cli-edit-2\"></i> Update Element"
+msgstr ""
+
+#: adminframework/fields/oembed/oembed.php:75
+msgid "Not a valid oEmbed source"
+msgstr ""
+
+#: adminframework/fields/oembed/oembed.php:119
+msgid "Search..."
+msgstr ""
+
+#: adminframework/fields/select/select.php:100
+msgid "No data provided for this option type."
+msgstr ""
+
+#: adminframework/fields/sorter/sorter.php:24
+msgid "Enabled"
+msgstr ""
+
+#: adminframework/fields/sorter/sorter.php:25
+msgid "Disabled"
+msgstr ""
+
+#: adminframework/fields/spacing/spacing.php:65
+msgid "All"
+msgstr ""
+
+#: adminframework/fields/spacing/spacing.php:83
+msgid "Top"
+msgstr ""
+
+#: adminframework/fields/spacing/spacing.php:101
+msgid "Right"
+msgstr ""
+
+#: adminframework/fields/spacing/spacing.php:119
+msgid "Bottom"
+msgstr ""
+
+#: adminframework/fields/spacing/spacing.php:137
+msgid "Left"
+msgstr ""
+
+#: adminframework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: adminframework/fields/switcher/switcher.php:21
+msgid "off"
+msgstr ""
+
+#: adminframework/fields/typography/typography.php:73
+#: adminframework/fields/typography_advanced/typography_advanced.php:109
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: adminframework/fields/typography/typography.php:79
+#: adminframework/fields/typography_advanced/typography_advanced.php:110
+msgid "Google Fonts"
+msgstr ""
+
+#: adminframework/fields/typography/typography.php:107
+#: adminframework/fields/typography_advanced/typography_advanced.php:276
+#: adminframework/functions/actions.php:42
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:139
+msgid "Font Family"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:154
+msgid "Font Weight & Style"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:171
+msgid "Font Size"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:189
+msgid "Line Height"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:207
+msgid "Letter Spacing"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:217
+msgid "Align Left"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:218
+msgid "Align Center"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:219
+msgid "Align Right"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:220
+msgid "Justify"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:224
+msgid "Text Align"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:235
+msgid "Capitalize"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:236
+msgid "Uppercase"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:237
+msgid "Lowercase"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:238
+msgid "Initial"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:239
+msgid "Inherit"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:243
+msgid "Text Transform"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:260
+msgid "Font Color"
+msgstr ""
+
+#: adminframework/functions/actions.php:116
+msgid "Not valid backup data"
+msgstr ""
+
+#: adminframework/functions/actions.php:126
+msgid "Successfully imported backup"
+msgstr ""
+
+#: adminframework/functions/actions.php:130
+msgid "Empty import data"
+msgstr ""
+
+#: adminframework/functions/actions.php:155
+msgid "Search a Icon..."
+msgstr ""
+
+#: adminframework/functions/actions.php:217
+msgid "No image was found in the specified directory."
+msgstr ""
+
+#: adminframework/functions/actions.php:239
+msgid "Search a image..."
+msgstr ""
+
+#: adminframework/functions/actions.php:385
+msgid "No color schemes to export"
+msgstr ""
+
+#: adminframework/functions/helpers.php:47
+#, php-format
+msgid "This field class is not available! %s"
+msgstr ""
+
+#: adminframework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: adminframework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: adminframework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: adminframework/templates/modern.php:9
+#: adminframework/templates/simple.php:100
+msgid "Settings Saved"
+msgstr ""
+
+#: adminframework/templates/modern.php:17
+msgid "Show All Options"
+msgstr ""
+
+#: adminframework/templates/modern.php:74
+msgid "Powered by CastorStudio Settings Framework"
+msgstr ""
+
+#: adminframework/templates/modern.php:77
+msgid "Version"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:457
+#: modules/admin_menu_manager/admin_menu_manager.php:456
+msgid "PLUS Admin Menu Manager"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:458
+#: modules/admin_menu_manager/admin_menu_manager.php:457
+msgid "Restore Initial Order"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:459
+#: modules/admin_menu_manager/admin_menu_manager.php:458
+msgid "Sort Asc"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:460
+#: modules/admin_menu_manager/admin_menu_manager.php:459
+msgid "Sort Desc"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:461
+#: modules/admin_menu_manager/admin_menu_manager.php:460
+msgid "Expand All"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:462
+#: modules/admin_menu_manager/admin_menu_manager.php:461
+msgid "Collapse All"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:463
+#: modules/admin_menu_manager/admin_menu_manager.php:462
+msgid "Move Menu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:464
+#: modules/admin_menu_manager/admin_menu_manager.php:463
+msgid "Show Menu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:465
+#: modules/admin_menu_manager/admin_menu_manager.php:464
+msgid "Hide Menu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:466
+#: modules/admin_menu_manager/admin_menu_manager.php:465
+msgid "Edit Menu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:467
+#: modules/admin_menu_manager/admin_menu_manager.php:466
+msgid "Expand Submenu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:468
+#: modules/admin_menu_manager/admin_menu_manager.php:467
+msgid "Collapse Submenu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:469
+#: modules/admin_menu_manager/admin_menu_manager.php:468
+msgid "Move Submenu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:470
+#: modules/admin_menu_manager/admin_menu_manager.php:469
+msgid "Show Submenu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:471
+#: modules/admin_menu_manager/admin_menu_manager.php:470
+msgid "Hide Submenu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:472
+#: modules/admin_menu_manager/admin_menu_manager.php:471
+msgid "Edit Submenu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:473
+#: modules/admin_menu_manager/admin_menu_manager.php:472
+msgid "Original"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:474
+#: modules/admin_menu_manager/admin_menu_manager.php:473
+msgid "Rename to"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:475
+#: modules/admin_menu_manager/admin_menu_manager.php:474
+msgid "Use %bubble% to display dynamic bubble notifications for this menu item"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:476
+#: modules/admin_menu_manager/admin_menu_manager.php:475
+msgid "Menu Icon"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:477
+#: modules/admin_menu_manager/admin_menu_manager.php:476
+msgid "Instructions"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:478
+#: modules/admin_menu_manager/admin_menu_manager.php:477
+#, php-format
+msgid ""
+"<li>Choose a user role from the select box, then press \"Re/Load Menu\" "
+"button.</li><li>Drag and Drop %s to rearrange menu and sub menu items.</"
+"li><li>Click on %s icon to show or hide the menu or submenu item.</"
+"li><li>Click on %s icon to edit menu name and icon, and submenu name.</"
+"li><li>Click on %s icon to collapse or %s icon to expand the submenu items "
+"of the selected menu.</li>"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:479
+#: modules/admin_menu_manager/admin_menu_manager.php:478
+msgid "Reset to Original"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:480
+#: modules/admin_menu_manager/admin_menu_manager.php:479
+msgid "Save Menu"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:481
+#: modules/admin_menu_manager/admin_menu_manager.php:480
+msgid "Select user role"
+msgstr ""
+
+#: modules/admin_menu_builder/admin_menu_builder.php:482
+#: modules/admin_menu_manager/admin_menu_manager.php:481
+msgid "Re/Load Menu"
+msgstr ""
+
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:8
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:14
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:37
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:44
+msgid "Admin Menu Builder"
+msgstr ""
+
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:15
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:15
+#: modules/login_page_manager/config/login_page_manager-settings.php:15
+msgid "v1.0.0"
+msgstr ""
+
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:49
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:52
+msgid "Custom Admin Menu"
+msgstr ""
+
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:50
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:53
+msgid "Use custom admin menu"
+msgstr ""
+
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:70
+msgid "FAQ"
+msgstr ""
+
+#: modules/admin_menu_builder/config/admin_menu_builder-settings.php:77
+msgid "Frequently Asqued Questions"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/cs-wp-menu-output.php:195
+#: modules/admin_menu_manager/includes/cs-wp-menu-output.php:195
+msgid "Collapse Main menu"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/cs-wp-menu-output.php:197
+#: modules/admin_menu_manager/includes/cs-wp-menu-output.php:197
+msgid "Collapse menu"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:36
+msgid "Core"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:37
+msgid "Menu Item"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:38
+msgid "Separator"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:40
+msgid "Extras"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:41
+msgid "Menu Heading"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:42
+msgid "Spacer"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:53
+msgid "Original Menu Name"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:59
+msgid "Menu Name"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:72
+msgid "Target Type"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:75
+msgid "Post"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:76
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:67
+msgid "Page"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:77
+msgid "WooCommerce Product"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:86
+msgid "Target Page"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:97
+msgid "Advanced Settings"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:98
+msgid "Show advanced settings"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:113
+msgid "Permissions"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:128
+msgid "Open in"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:130
+msgid "Same Page or Tab"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:131
+msgid "New Page or Tab"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:139
+msgid "CSS Classes"
+msgstr ""
+
+#: modules/admin_menu_builder/includes/edit-panel.php:145
+msgid "ID Attribute"
+msgstr ""
+
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:8
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:14
+msgid "Admin Menu Manager"
+msgstr ""
+
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:40
+#: modules/admin_menu_manager/config/admin_menu_manager-settings.php:47
+msgid "Admin Menu Customization"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:13
+msgid "WP Automatic Updates Manager"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:20
+msgid "WordPress Automatic Updates Manager"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:24
+msgid ""
+"Stay in control and choose what kind of automatic updates you want to keep "
+"in your WordPress. Be careful to manually update your WordPress."
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:29
+msgid "Disable all auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:30
+msgid "Disable all type of WordPress automatic updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:31
+msgid "If unchecked, all types of automatic updates will be enabled."
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:32
+msgid "Disable all automatic updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:42
+msgid "Advanced Options"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:43
+msgid "Choose which type of WordPress auto-updates you want to disable"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:44
+msgid "Let me choose the type of WordPress auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:60
+msgid "Core auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:61
+msgid "Disable specific WordPress core auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:62
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:79
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:93
+msgid "If unchecked, the auto-update will be enabled"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:63
+msgid "Minor core updates are already enabled by default"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:65
+msgid "Disable All Core auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:66
+msgid "Disable Core Development auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:67
+msgid "Disable Core Minor auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:68
+msgid "Disable Core Major auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:77
+msgid "Plugin & Themes auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:78
+msgid "Disable specific plugin and themes auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:80
+msgid ""
+"By default, automatic background updates only happen for plugins and themes "
+"in special cases, as determined by the WordPress.org API response, which is "
+"controlled by the WordPress security team for patching critical "
+"vulnerabilities."
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:82
+msgid "Disable Plugin auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:83
+msgid "Disable Themes auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:92
+msgid "Translation auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:94
+msgid "Automatic translation file updates are already enabled by default"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:96
+msgid "Disable all translation updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:105
+msgid "Emails auto-updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:106
+msgid "Check to disable specific updates"
+msgstr ""
+
+#: modules/autoupdates_manager/config/autoupdates_manager-settings.php:108
+msgid "Disable all email auto-updates"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:13
+msgid "Disable Gutenberg"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:20
+msgid "Disable Gutenberg Manager"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:24
+msgid ""
+"Turn off the Gutenberg block editor wherever you want and use the Classic "
+"editor instead"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:30
+msgid "Dashboard Widget"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:31
+msgid "Remove the \"Try Gutenberg\" dashboard widget"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:40
+msgid "Disabled Everywhere"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:41
+msgid "If you check this option, all your rule sets will be ignored."
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:42
+msgid ""
+"Disable the use of Gutenberg editor everywhere. Use the classic editor "
+"instead"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:54
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:55
+msgid "New Rule Set"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:56
+msgid "Rule Set for"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:62
+msgid "Ruleset Status"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:63
+msgid "Enable this ruleset"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:73
+msgid "The selected user roles will use the classic editor instead"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:76
+msgid "Select an user role"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:82
+msgid "Post Type"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:83
+msgid "The selected post type will use the classic editor instead"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:85
+msgid "Posts"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:86
+msgid "Pages"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:87
+msgid "Custom Post Type"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:89
+msgid "-- Choose post type --"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:97
+msgid "Disable posts by"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:99
+msgid "All Posts"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:100
+msgid "Specific Posts by ID"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:108
+msgid "Posts IDs"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:109
+msgid "The selected posts will use the classic editor instead"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:118
+msgid "Disable pages by"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:121
+msgid "Specific Pages by ID"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:129
+msgid "Page IDs"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:130
+msgid "The selected pages will use the classic editor instead"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:138
+msgid "Disable by Custom Post Type"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:139
+msgid "The selected custom post types will use the classic editor instead"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:142
+msgid "Select a Custom Post Type"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:148
+msgid "You got the freedom in your hands"
+msgstr ""
+
+#: modules/disable_gutenberg/config/disable_gutenberg-settings.php:149
+msgid ""
+"If you have similar or duplicate rule sets, they could be overwritten, so be "
+"careful."
+msgstr ""
+
+#: modules/disable_gutenberg/disable_gutenberg.php:21
+#: modules/disable_gutenberg/disable_gutenberg.php:25
+msgid "Sorry!!"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:13
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:20
+msgid "Custom Help Tabs Manager"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:24
+msgid ""
+"\"Help Tabs\" helps users on how to exactly use any settings page by giving "
+"them more information in the help tab."
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:29
+msgid "Enable Help Tabs"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:30
+msgid "Enable the use of Custom Help Tabs"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:41
+msgid "Add Help Tab to a new page"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:42
+msgid "New Help Tab Page"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:43
+msgid "Help Tab Page"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:49
+msgid "Disable Helptab Page"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:50
+msgid ""
+"Temporarily disable this page settings and help tabs instead of deleting it."
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:62
+msgid "Choose an user role to show this help."
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:69
+msgid "Choose a page"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:74
+msgid "Remove Original Help"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:75
+msgid "Remove all original previous help tabs from this page"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:84
+msgid "Custom Sidebar"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:85
+msgid "Use custom sidebar info"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:110
+msgid "Add New Help Tab"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:111
+msgid "New Help Tab"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:116
+msgid "Help Tab Title"
+msgstr ""
+
+#: modules/help_tabs_manager/config/help_tabs_manager-settings.php:121
+msgid "Help Tab Content"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:8
+#: modules/login_page_manager/config/login_page_manager-settings.php:14
+msgid "Login Page Manager"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:41
+msgid "General"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:54
+msgid "Login Page"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:55
+msgid "Use custom login page theme"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:68
+msgid "Login Page Logo"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:69
+msgid "Upload your own logo of 350px * 100px (width * height)."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:81
+msgid "Use custom login page title"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:92
+msgid "Page Title Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:93
+msgid "This is the \"title\" meta tag."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:94
+msgid "PLUS Admin - Whitelabel WordPress Admin Theme"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:102
+msgid "Use custom login logo url"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:113
+msgid "This is the URL to which the logo points"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:114
+msgid ""
+"<p class=\"cssf-text-muted\">By default this url is your bloginfo url.</p>"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:121
+msgid "Logo Title"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:122
+msgid "Use custom logo title"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:132
+msgid "Logo Title Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:133
+msgid "This is simply ALT text for the logo."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:140
+msgid "Login Error Shake"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:141
+msgid ""
+"When you enter an incorrect username or password, the login form shakes to "
+"alert the user they need to try again."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:142
+msgid "Remove the error shake effect"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:153
+msgid "Login Page Links"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:159
+#: modules/login_page_manager/includes/class-plus_admin-login-theme.php:251
+msgid "Remember Me"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:160
+msgid "Use custom \"Remember Me\" text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:179
+#: modules/login_page_manager/config/login_page_manager-settings.php:217
+#: modules/login_page_manager/config/login_page_manager-settings.php:257
+#: modules/login_page_manager/config/login_page_manager-settings.php:329
+msgid "Link Visibility"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:180
+msgid "Hide \"Remember me\" link"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:189
+msgid "Remember Me Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:190
+msgid "Keep session active"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:197
+msgid "Back to main site"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:198
+#: modules/login_page_manager/config/login_page_manager-settings.php:238
+msgid "Use custom link options"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:218
+msgid "Hide \"Back to main site\" link"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:227
+#: modules/login_page_manager/config/login_page_manager-settings.php:267
+#: modules/login_page_manager/config/login_page_manager-settings.php:300
+#: modules/login_page_manager/config/login_page_manager-settings.php:339
+msgid "Link Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:228
+#, php-format
+msgid "<p class=\"cssf-text-muted\">Use %s as a site name wildcard</p>"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:229
+msgid "Go to Homepage"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:237
+#: modules/login_page_manager/includes/class-plus_admin-login-theme.php:211
+msgid "Lost your password?"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:258
+msgid "Hide \"Lost your password?\" link"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:268
+msgid "Lost your password? Click here"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:276
+#: modules/login_page_manager/includes/class-plus_admin-login-theme.php:233
+msgid "Register"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:277
+#: modules/login_page_manager/config/login_page_manager-settings.php:310
+msgid "Use custom link text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:295
+msgid ""
+"To change the visibility of this link, you must enable/disable \"Anyone can "
+"register\" Membership option under the <a href=\"wp-admin/options-general.php"
+"\">General Settings</a> page"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:301
+msgid "Sign Up Now"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:309
+msgid "Login"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:330
+msgid "Hide \"Login\" link"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:340
+msgid "Back to Sign in"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:348
+msgid "Login Button"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:349
+msgid "Use custom login button style"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:364
+#: modules/login_page_manager/config/login_page_manager-settings.php:389
+msgid "Button Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:365
+msgid "Test PLUS Admin now!"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:373
+msgid "Get New Password Button"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:374
+msgid "Use custom button text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:390
+msgid "Get New Password"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:402
+msgid "Messages"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:408
+msgid "Login Message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:409
+msgid "Use custom login message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:423
+msgid "Login Message Text Color"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:429
+msgid "Login Message Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:430
+msgid "Enter a custom text to show on the login screen."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:431
+msgid ""
+"Welcome back to PLUS Admin. Please login using the user credentials below:"
+"<br><strong>Username:</strong> demo <strong>Password:</strong> demo"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:446
+msgid "Logout Message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:447
+msgid "Use custom logout message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:461
+msgid "Message Visibility"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:462
+msgid "Hide loggedout message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:471
+msgid "Logout Message Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:472
+msgid "Enter a text to show on the logout screen."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:473
+msgid "Now you're out"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:487
+msgid "Invalid Username Message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:488
+msgid "Use custom invalid username message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:498
+msgid "Invalid Username Message Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:499
+msgid "Enter a text to show when entering an incorrect username."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:500
+msgid "<strong>ERROR</strong>: Invalid username."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:514
+msgid "Invalid Password Message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:515
+msgid "Use custom invalid password message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:525
+msgid "Invalid Password Message Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:526
+msgid "Enter a text to show when entering an incorrect password."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:527
+msgid "<strong>ERROR</strong>: The password you entered is incorrect."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:541
+msgid "Invalid Captcha Message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:542
+msgid "Use custom invalid captcha message"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:552
+msgid "Invalid Captcha Message Text"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:553
+msgid "Enter a text to show when entering an incorrect captcha."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:554
+msgid "<strong>ERROR</strong>: The captcha you entered is incorrect."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:581
+msgid "Login Page Themes"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:585
+msgid "Choose a theme and customize your login screen as you want!"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:615
+#: modules/login_page_manager/config/login_page_manager-settings.php:622
+msgid "Login & Logout Redirect"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:628
+msgid "Custom Login URL"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:629
+msgid "Use custom login URL"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:644
+msgid "Login URL slug"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:645
+msgid "plus-admin-login"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:646
+msgid ""
+"<p class=\"cssf-text-muted\">Important: Your new login url will be in this "
+"format: http://www.yoursite.com/your-new-login-url-slug/</p>"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:654
+msgid "Custom Login Redirect"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:655
+msgid "Redirect users to a custom page after login"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:669
+#: modules/login_page_manager/config/login_page_manager-settings.php:718
+msgid "Redirect by User Role"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:677
+msgid "Custom Logout URL"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:678
+msgid "Use custom logout URL"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:693
+msgid "Logout URL slug"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:694
+msgid "plus-admin-logout"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:695
+msgid ""
+"<p class=\"cssf-text-muted\">Important: Your new logout url will be in this "
+"format: http://www.yoursite.com/your-new-logout-url-slug/</p>"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:703
+msgid "Custom Logout Redirect"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:704
+msgid "Redirect users to a custom page after logout"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:731
+msgid "reCAPTCHA nocaptcha"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:738
+msgid "Login Page reCAPTCHA"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:744
+msgid "reCAPTCHA"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:745
+msgid "Use reCAPTCHA "
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:753
+msgid ""
+"With the default test keys, you will always get No CAPTCHA and all "
+"verification requests will pass. Please <a href=\"https://www.google.com/"
+"recaptcha/admin\" target=\"_blank\">register a new key</a>"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:758
+msgid "Site Key"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:759
+msgid "Used in the HTML code that shows your site to users."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:766
+msgid "Secret Key"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:767
+msgid ""
+"Used for communications between your site and Google. Be careful not to "
+"reveal it to anyone."
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:774
+msgid "Forms to protect"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:776
+msgid "Login Form"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:777
+msgid "Lost Password Form"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:778
+msgid "Register Form"
+msgstr ""
+
+#: modules/login_page_manager/config/login_page_manager-settings.php:787
+msgid "Theme"
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-login-theme.php:201
+msgid "Log in"
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-login-theme.php:261
+#, php-format
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-login-theme.php:300
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-login-theme.php:301
+msgid "Powered by WordPress"
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-recaptcha.php:135
+msgid "Please enable JavaScript to submit this form."
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-recaptcha.php:185
+msgid "<strong>Captcha Error:</strong> The secret parameter is missing."
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-recaptcha.php:186
+msgid ""
+"<strong>Captcha Error:</strong> The secret parameter is invalid or malformed."
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-recaptcha.php:187
+msgid "<strong>Captcha Error:</strong> The response parameter is missing."
+msgstr ""
+
+#: modules/login_page_manager/includes/class-plus_admin-recaptcha.php:188
+msgid ""
+"<strong>Captcha Error:</strong> The response parameter is invalid or "
+"malformed."
+msgstr ""
+
+#: modules/login_page_manager/login_page_manager.php:783
+msgid "This feature is not enabled."
+msgstr ""
+
+#: modules/login_page_manager/login_page_manager.php:1041
+#: modules/login_page_manager/login_page_manager.php:1079
+msgid "<strong>Error:</strong> the captcha didn't verify."
+msgstr ""
+
+#: modules/login_page_manager/login_page_manager.php:1189
+msgid "File not found."
+msgstr ""
+
+#: modules/login_page_manager/login_page_manager.php:1204
+msgid "There was an error unzipping the file."
+msgstr ""
+
+#: modules/login_page_manager/login_page_manager.php:1206
+msgid "Successfully unzipped the file!"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:40
+msgid "Corporate Theme Settings"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:45
+#: modules/login_page_manager/themes/curvedside/curvedside.php:45
+#: modules/login_page_manager/themes/frozen/frozen.php:44
+#: modules/login_page_manager/themes/fullside/fullside.php:45
+#: modules/login_page_manager/themes/gplus/gplus.php:44
+#: modules/login_page_manager/themes/material/material.php:45
+msgid "Logo Image Size"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:58
+#: modules/login_page_manager/themes/curvedside/curvedside.php:58
+#: modules/login_page_manager/themes/frozen/frozen.php:57
+#: modules/login_page_manager/themes/fullside/fullside.php:58
+#: modules/login_page_manager/themes/gplus/gplus.php:57
+#: modules/login_page_manager/themes/material/material.php:58
+#: modules/login_page_manager/themes/minimal/minimal.php:41
+msgid "Background Type"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:73
+#: modules/login_page_manager/themes/curvedside/curvedside.php:73
+#: modules/login_page_manager/themes/frozen/frozen.php:72
+#: modules/login_page_manager/themes/fullside/fullside.php:73
+#: modules/login_page_manager/themes/gplus/gplus.php:72
+#: modules/login_page_manager/themes/material/material.php:73
+#: modules/login_page_manager/themes/minimal/minimal.php:56
+msgid "Background Gallery"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:84
+#: modules/login_page_manager/themes/curvedside/curvedside.php:84
+#: modules/login_page_manager/themes/frozen/frozen.php:83
+#: modules/login_page_manager/themes/fullside/fullside.php:84
+#: modules/login_page_manager/themes/gplus/gplus.php:83
+#: modules/login_page_manager/themes/material/material.php:85
+#: modules/login_page_manager/themes/minimal/minimal.php:67
+msgid "Custom Background Image"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:85
+#: modules/login_page_manager/themes/corporate/corporate.php:110
+#: modules/login_page_manager/themes/curvedside/curvedside.php:110
+#: modules/login_page_manager/themes/frozen/frozen.php:109
+#: modules/login_page_manager/themes/fullside/fullside.php:110
+#: modules/login_page_manager/themes/gplus/gplus.php:109
+#: modules/login_page_manager/themes/material/material.php:111
+#: modules/login_page_manager/themes/minimal/minimal.php:93
+msgid "Background image, color and settings etc. for login page"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:87
+#: modules/login_page_manager/themes/corporate/corporate.php:112
+#: modules/login_page_manager/themes/corporate/corporate.php:206
+#: modules/login_page_manager/themes/curvedside/curvedside.php:87
+#: modules/login_page_manager/themes/curvedside/curvedside.php:112
+#: modules/login_page_manager/themes/curvedside/curvedside.php:218
+#: modules/login_page_manager/themes/frozen/frozen.php:86
+#: modules/login_page_manager/themes/frozen/frozen.php:111
+#: modules/login_page_manager/themes/fullside/fullside.php:87
+#: modules/login_page_manager/themes/fullside/fullside.php:112
+#: modules/login_page_manager/themes/fullside/fullside.php:246
+#: modules/login_page_manager/themes/gplus/gplus.php:86
+#: modules/login_page_manager/themes/gplus/gplus.php:111
+#: modules/login_page_manager/themes/material/material.php:88
+#: modules/login_page_manager/themes/material/material.php:113
+#: modules/login_page_manager/themes/material/material.php:193
+#: modules/login_page_manager/themes/minimal/minimal.php:70
+#: modules/login_page_manager/themes/minimal/minimal.php:95
+msgid "Choose Background"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:88
+#: modules/login_page_manager/themes/corporate/corporate.php:113
+#: modules/login_page_manager/themes/corporate/corporate.php:207
+#: modules/login_page_manager/themes/curvedside/curvedside.php:88
+#: modules/login_page_manager/themes/curvedside/curvedside.php:113
+#: modules/login_page_manager/themes/curvedside/curvedside.php:219
+#: modules/login_page_manager/themes/frozen/frozen.php:87
+#: modules/login_page_manager/themes/frozen/frozen.php:112
+#: modules/login_page_manager/themes/fullside/fullside.php:88
+#: modules/login_page_manager/themes/fullside/fullside.php:113
+#: modules/login_page_manager/themes/fullside/fullside.php:247
+#: modules/login_page_manager/themes/gplus/gplus.php:87
+#: modules/login_page_manager/themes/gplus/gplus.php:112
+#: modules/login_page_manager/themes/material/material.php:89
+#: modules/login_page_manager/themes/material/material.php:114
+#: modules/login_page_manager/themes/material/material.php:194
+#: modules/login_page_manager/themes/minimal/minimal.php:71
+#: modules/login_page_manager/themes/minimal/minimal.php:96
+msgid "Choose an image to use as a login background"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:89
+#: modules/login_page_manager/themes/corporate/corporate.php:114
+#: modules/login_page_manager/themes/corporate/corporate.php:208
+#: modules/login_page_manager/themes/curvedside/curvedside.php:89
+#: modules/login_page_manager/themes/curvedside/curvedside.php:114
+#: modules/login_page_manager/themes/curvedside/curvedside.php:220
+#: modules/login_page_manager/themes/frozen/frozen.php:88
+#: modules/login_page_manager/themes/frozen/frozen.php:113
+#: modules/login_page_manager/themes/fullside/fullside.php:89
+#: modules/login_page_manager/themes/fullside/fullside.php:114
+#: modules/login_page_manager/themes/fullside/fullside.php:248
+#: modules/login_page_manager/themes/gplus/gplus.php:88
+#: modules/login_page_manager/themes/gplus/gplus.php:113
+#: modules/login_page_manager/themes/material/material.php:90
+#: modules/login_page_manager/themes/material/material.php:115
+#: modules/login_page_manager/themes/material/material.php:195
+#: modules/login_page_manager/themes/minimal/minimal.php:72
+#: modules/login_page_manager/themes/minimal/minimal.php:97
+msgid "Use this background image"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:109
+#: modules/login_page_manager/themes/curvedside/curvedside.php:109
+#: modules/login_page_manager/themes/frozen/frozen.php:108
+#: modules/login_page_manager/themes/fullside/fullside.php:109
+#: modules/login_page_manager/themes/gplus/gplus.php:108
+#: modules/login_page_manager/themes/material/material.php:110
+#: modules/login_page_manager/themes/minimal/minimal.php:92
+msgid "Custom External Background Image"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:123
+#: modules/login_page_manager/themes/curvedside/curvedside.php:123
+#: modules/login_page_manager/themes/frozen/frozen.php:122
+#: modules/login_page_manager/themes/fullside/fullside.php:123
+#: modules/login_page_manager/themes/gplus/gplus.php:122
+#: modules/login_page_manager/themes/material/material.php:124
+#: modules/login_page_manager/themes/minimal/minimal.php:106
+msgid "Paste your external image url here"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:140
+#: modules/login_page_manager/themes/curvedside/curvedside.php:140
+#: modules/login_page_manager/themes/frozen/frozen.php:139
+#: modules/login_page_manager/themes/fullside/fullside.php:140
+#: modules/login_page_manager/themes/gplus/gplus.php:138
+#: modules/login_page_manager/themes/material/material.php:141
+#: modules/login_page_manager/themes/minimal/minimal.php:123
+msgid "YouTube Video URL"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:142
+#: modules/login_page_manager/themes/curvedside/curvedside.php:142
+#: modules/login_page_manager/themes/frozen/frozen.php:141
+#: modules/login_page_manager/themes/fullside/fullside.php:142
+#: modules/login_page_manager/themes/gplus/gplus.php:140
+#: modules/login_page_manager/themes/material/material.php:143
+#: modules/login_page_manager/themes/minimal/minimal.php:125
+msgid "Insert any YouTube video url here"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:150
+#: modules/login_page_manager/themes/curvedside/curvedside.php:150
+#: modules/login_page_manager/themes/frozen/frozen.php:149
+#: modules/login_page_manager/themes/fullside/fullside.php:150
+#: modules/login_page_manager/themes/gplus/gplus.php:148
+#: modules/login_page_manager/themes/material/material.php:151
+#: modules/login_page_manager/themes/minimal/minimal.php:133
+msgid "Vimeo Video URL"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:152
+#: modules/login_page_manager/themes/curvedside/curvedside.php:152
+#: modules/login_page_manager/themes/frozen/frozen.php:151
+#: modules/login_page_manager/themes/fullside/fullside.php:152
+#: modules/login_page_manager/themes/gplus/gplus.php:150
+#: modules/login_page_manager/themes/material/material.php:153
+#: modules/login_page_manager/themes/minimal/minimal.php:135
+msgid "Insert any Vimeo video url here"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:159
+#: modules/login_page_manager/themes/curvedside/curvedside.php:159
+#: modules/login_page_manager/themes/fullside/fullside.php:187
+msgid "Form Footer Text"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:160
+#: modules/login_page_manager/themes/curvedside/curvedside.php:160
+#: modules/login_page_manager/themes/fullside/fullside.php:188
+msgid "Enter the text that displays in the footer of the login form area"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:161
+msgid ""
+"Need more help? <a href=\"http://www.castorstudio.com\" target=\"_blank"
+"\">Contact us!</a>"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:173
+#: modules/login_page_manager/themes/material/material.php:160
+msgid "Page Footer Text"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:174
+#: modules/login_page_manager/themes/material/material.php:161
+msgid "Enter the text that displays in the footer of the login page"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:175
+#: modules/login_page_manager/themes/material/material.php:162
+msgid ""
+"Copyright 2019 <a href=\"http://www.castorstudio.com\" target=\"_blank"
+"\">CastorStudio</a>"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:187
+#: modules/login_page_manager/themes/curvedside/curvedside.php:173
+#: modules/login_page_manager/themes/fullside/fullside.php:201
+#: modules/login_page_manager/themes/material/material.php:174
+msgid "Side Content"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:192
+#: modules/login_page_manager/themes/fullside/fullside.php:206
+#: modules/login_page_manager/themes/material/material.php:179
+msgid "Side Content Position"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:193
+#: modules/login_page_manager/themes/curvedside/curvedside.php:179
+#: modules/login_page_manager/themes/fullside/fullside.php:207
+#: modules/login_page_manager/themes/material/material.php:180
+msgid "Choose the position"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:195
+#: modules/login_page_manager/themes/curvedside/curvedside.php:181
+#: modules/login_page_manager/themes/fullside/fullside.php:209
+#: modules/login_page_manager/themes/material/material.php:182
+msgid "Left Side"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:196
+#: modules/login_page_manager/themes/curvedside/curvedside.php:182
+#: modules/login_page_manager/themes/fullside/fullside.php:210
+#: modules/login_page_manager/themes/material/material.php:183
+msgid "Right Side"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:203
+#: modules/login_page_manager/themes/fullside/fullside.php:217
+#: modules/login_page_manager/themes/material/material.php:190
+msgid "Side Background Image"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:204
+#: modules/login_page_manager/themes/curvedside/curvedside.php:190
+#: modules/login_page_manager/themes/fullside/fullside.php:218
+#: modules/login_page_manager/themes/material/material.php:191
+msgid "Background image, color and settings etc."
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:227
+#: modules/login_page_manager/themes/curvedside/curvedside.php:234
+#: modules/login_page_manager/themes/material/material.php:214
+msgid "Side Background Image Color Overlay"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:259
+msgid "Side Title"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:260
+msgid "We reimagine the WordPress admin"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:265
+msgid "Side Description"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:267
+msgid ""
+"The Plus Admin is your solution for customizing the WordPress admin area"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:278
+#: modules/login_page_manager/themes/curvedside/curvedside.php:266
+#: modules/login_page_manager/themes/frozen/frozen.php:157
+#: modules/login_page_manager/themes/fullside/fullside.php:262
+#: modules/login_page_manager/themes/gplus/gplus.php:156
+#: modules/login_page_manager/themes/material/material.php:246
+#: modules/login_page_manager/themes/minimal/minimal.php:141
+msgid "General Styling"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:283
+#: modules/login_page_manager/themes/curvedside/curvedside.php:271
+#: modules/login_page_manager/themes/frozen/frozen.php:162
+#: modules/login_page_manager/themes/fullside/fullside.php:267
+#: modules/login_page_manager/themes/gplus/gplus.php:161
+#: modules/login_page_manager/themes/material/material.php:251
+#: modules/login_page_manager/themes/minimal/minimal.php:146
+msgid "Login Form Background Color"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:311
+#: modules/login_page_manager/themes/curvedside/curvedside.php:299
+#: modules/login_page_manager/themes/frozen/frozen.php:190
+#: modules/login_page_manager/themes/fullside/fullside.php:273
+#: modules/login_page_manager/themes/gplus/gplus.php:167
+#: modules/login_page_manager/themes/material/material.php:265
+#: modules/login_page_manager/themes/minimal/minimal.php:152
+msgid "Login Button Background Color"
+msgstr ""
+
+#: modules/login_page_manager/themes/corporate/corporate.php:347
+#: modules/login_page_manager/themes/curvedside/curvedside.php:335
+#: modules/login_page_manager/themes/frozen/frozen.php:226
+#: modules/login_page_manager/themes/fullside/fullside.php:309
+#: modules/login_page_manager/themes/gplus/gplus.php:203
+#: modules/login_page_manager/themes/material/material.php:301
+#: modules/login_page_manager/themes/minimal/minimal.php:188
+msgid "Login Button Text Color"
+msgstr ""
+
+#: modules/login_page_manager/themes/curvedside/curvedside.php:40
+msgid "CurvedSide Theme Settings"
+msgstr ""
+
+#: modules/login_page_manager/themes/curvedside/curvedside.php:85
+#: modules/login_page_manager/themes/frozen/frozen.php:84
+#: modules/login_page_manager/themes/fullside/fullside.php:85
+#: modules/login_page_manager/themes/gplus/gplus.php:84
+#: modules/login_page_manager/themes/material/material.php:86
+#: modules/login_page_manager/themes/minimal/minimal.php:68
+msgid ""
+"Background image, color and settings etc. for login page (Eg: http://www."
+"yourdomain.com/wp-login.php)"
+msgstr ""
+
+#: modules/login_page_manager/themes/curvedside/curvedside.php:161
+msgid ""
+"Copyright 2019 <a href=\"http://www.castorstudio.com\" target=\"_blank"
+"\">Castorstudio</a>"
+msgstr ""
+
+#: modules/login_page_manager/themes/curvedside/curvedside.php:178
+msgid "Curved Side Position"
+msgstr ""
+
+#: modules/login_page_manager/themes/curvedside/curvedside.php:189
+msgid "Curved Side Background Image"
+msgstr ""
+
+#: modules/login_page_manager/themes/frozen/frozen.php:39
+msgid "Frozen Theme Settings"
+msgstr ""
+
+#: modules/login_page_manager/themes/fullside/fullside.php:40
+msgid "FullSide Theme Settings"
+msgstr ""
+
+#: modules/login_page_manager/themes/fullside/fullside.php:159
+msgid "Welcome Title Text"
+msgstr ""
+
+#: modules/login_page_manager/themes/fullside/fullside.php:160
+msgid "Enter the text to use as a welcome title"
+msgstr ""
+
+#: modules/login_page_manager/themes/fullside/fullside.php:161
+msgid "Welcome to <strong>PLUS</strong>"
+msgstr ""
+
+#: modules/login_page_manager/themes/fullside/fullside.php:173
+msgid "Welcome Message Text"
+msgstr ""
+
+#: modules/login_page_manager/themes/fullside/fullside.php:174
+msgid "Enter the text to use as a welcome intro message"
+msgstr ""
+
+#: modules/login_page_manager/themes/fullside/fullside.php:175
+msgid "Welcome back, Please Login to your account or Register"
+msgstr ""
+
+#: modules/login_page_manager/themes/fullside/fullside.php:189
+msgid ""
+"By signing up you agree with our <a href=\"http://www.castorstudio.com\" "
+"target=\"_blank\">Terms and Conditions</a> & <a href=\"http://www."
+"castorstudio.com\" target=\"_blank\">Privacy Policy</a>"
+msgstr ""
+
+#: modules/login_page_manager/themes/gplus/gplus.php:39
+msgid "G-Plus Theme Settings"
+msgstr ""
+
+#: modules/login_page_manager/themes/material/material.php:40
+msgid "Material Theme Settings"
+msgstr ""
+
+#: modules/login_page_manager/themes/minimal/minimal.php:36
+msgid "Minimal Theme Settings"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:196
+msgid "My Account"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:199
+msgid "Edit my profile"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:201
+msgid "Logout"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:208
+#: plugin_includes/class-plus_admin-navbar.php:251
+msgid "Admin Settings"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:243
+#, php-format
+msgid "%s user account"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:252
+msgid "View Plus Admin Settings"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:344
+msgid "Your WordPress is up to date"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:365
+msgid "View All"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:446
+msgid "Page Help"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:466
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: plugin_includes/class-plus_admin-navbar.php:528
+#, php-format
+msgid "Go to: %s"
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:9
+msgid ""
+"First off all, thanks for considering our work, we love you! \n"
+" We made this plugin with all our heart, taking care of every small element, "
+"motion, interaction and customizing capabilities, so you can entirely focus "
+"on creating great things. We sincerely hope you'll enjoy it the same as we "
+"do!"
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:11
+msgid "Customize Appearance"
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:12
+msgid ""
+"We have paid special attention to the possibility of customizing each "
+"section in the way you want, so we have put at your disposal a large number "
+"of themes and settings, that way our theme will fit your needs."
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:14
+msgid "Need Help?"
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:15
+msgid ""
+"We are available to help you in what you need so you can fully enjoy our "
+"plugin. Just send us an email to support@castorstudio.com and we will answer "
+"as quickly as possible!"
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:17
+msgid "Get in touch"
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:18
+msgid ""
+"Do you have questions or suggestions? Feel free to contact us through our "
+"official website or via our Envato profile. We are available every day!"
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:22
+msgid "Welcome Page"
+msgstr ""
+
+#: plugin_includes/page-dashboard.php:25
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: themes/custom/custom.php:32
+msgid "Choose a Theme or create your own!"
+msgstr ""
+
+#: themes/custom/custom.php:38
+msgid ""
+"Select an user role to apply a color scheme. If you do not select any, the "
+"<strong>\"Default Theme\"</strong> style will apply to all user roles."
+msgstr ""
+
+#: themes/custom/custom.php:39
+msgid "Color Schemes"
+msgstr ""
+
+#: themes/custom/custom.php:40
+msgid ""
+"Choose one of all available color schemes, customize it completely and use "
+"it or save it as a new one!"
+msgstr ""
+
+#: themes/custom/custom.php:44
+msgid "Header Navbar"
+msgstr ""
+
+#: themes/custom/custom.php:45
+msgid "Set header titlebar and toolbar colors here"
+msgstr ""
+
+#: themes/custom/custom.php:48 themes/custom/custom.php:186
+msgid "Sidebar"
+msgstr ""
+
+#: themes/custom/custom.php:49
+msgid "Set sidebar colors here"
+msgstr ""
+
+#: themes/custom/custom.php:52
+msgid "General Colors"
+msgstr ""
+
+#: themes/custom/custom.php:53
+msgid "Set primary, accent, variants and button colors here"
+msgstr ""
+
+#: themes/custom/custom.php:56
+msgid "UI Elements"
+msgstr ""
+
+#: themes/custom/custom.php:57
+msgid "Set colors used by UI Elements"
+msgstr ""
+
+#: themes/custom/custom.php:64
+msgid "Navbar Header"
+msgstr ""
+
+#: themes/custom/custom.php:85
+msgid "Navbar Toolbar: Icons"
+msgstr ""
+
+#: themes/custom/custom.php:89
+msgid "Toolbar Color"
+msgstr ""
+
+#: themes/custom/custom.php:94
+msgid "Toolbar Color Hover"
+msgstr ""
+
+#: themes/custom/custom.php:99
+msgid "Toolbar Background Hover"
+msgstr ""
+
+#: themes/custom/custom.php:104
+msgid "Toolbar Color Active"
+msgstr ""
+
+#: themes/custom/custom.php:109
+msgid "Toolbar Background Active"
+msgstr ""
+
+#: themes/custom/custom.php:116
+msgid "Navbar Toolbar: Notification Badge"
+msgstr ""
+
+#: themes/custom/custom.php:132
+msgid "Navbar Brand: Text Logo Type"
+msgstr ""
+
+#: themes/custom/custom.php:136 themes/custom/custom.php:162
+#: themes/custom/custom.php:599
+msgid "Title Text Color"
+msgstr ""
+
+#: themes/custom/custom.php:141 themes/custom/custom.php:167
+msgid "Subtitle Text Color"
+msgstr ""
+
+#: themes/custom/custom.php:146 themes/custom/custom.php:172
+msgid "Logo Icon Color"
+msgstr ""
+
+#: themes/custom/custom.php:151 themes/custom/custom.php:177
+msgid "Logo Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:158
+msgid "Navbar Brand: Text Logo Type - Off Canvas Sidebar"
+msgstr ""
+
+#: themes/custom/custom.php:200 themes/custom/custom.php:290
+msgid "Hover Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:210
+msgid "Separator Color"
+msgstr ""
+
+#: themes/custom/custom.php:217
+msgid "MENU Item: Normal State"
+msgstr ""
+
+#: themes/custom/custom.php:233
+msgid "MENU Item: Hover State"
+msgstr ""
+
+#: themes/custom/custom.php:249
+msgid "Current Menu Item: Normal State"
+msgstr ""
+
+#: themes/custom/custom.php:265
+msgid "Current Menu Item: Hover State"
+msgstr ""
+
+#: themes/custom/custom.php:281
+msgid "Submenu"
+msgstr ""
+
+#: themes/custom/custom.php:302
+msgid "Submenu Item: Normal State"
+msgstr ""
+
+#: themes/custom/custom.php:318
+msgid "Submenu Item: Hover State"
+msgstr ""
+
+#: themes/custom/custom.php:334
+msgid "Current Submenu Item: Normal State"
+msgstr ""
+
+#: themes/custom/custom.php:350
+msgid "Current Submenu Item: Hover State"
+msgstr ""
+
+#: themes/custom/custom.php:368
+msgid "Primary Colors"
+msgstr ""
+
+#: themes/custom/custom.php:372
+msgid "Primary Normal"
+msgstr ""
+
+#: themes/custom/custom.php:377
+msgid "Primary Light"
+msgstr ""
+
+#: themes/custom/custom.php:382
+msgid "Primary Lighter"
+msgstr ""
+
+#: themes/custom/custom.php:387
+msgid "Primary Dark"
+msgstr ""
+
+#: themes/custom/custom.php:392
+msgid "Primary Darker"
+msgstr ""
+
+#: themes/custom/custom.php:399
+msgid "Contextual Colors"
+msgstr ""
+
+#: themes/custom/custom.php:403
+msgid "Accent"
+msgstr ""
+
+#: themes/custom/custom.php:408
+msgid "Success"
+msgstr ""
+
+#: themes/custom/custom.php:413
+msgid "Info"
+msgstr ""
+
+#: themes/custom/custom.php:418
+msgid "Warning"
+msgstr ""
+
+#: themes/custom/custom.php:423
+msgid "Danger"
+msgstr ""
+
+#: themes/custom/custom.php:432
+msgid "Body"
+msgstr ""
+
+#: themes/custom/custom.php:448
+msgid "Anchor"
+msgstr ""
+
+#: themes/custom/custom.php:452
+msgid "Normal Color"
+msgstr ""
+
+#: themes/custom/custom.php:457
+msgid "Hover Color"
+msgstr ""
+
+#: themes/custom/custom.php:462
+msgid "Active Color"
+msgstr ""
+
+#: themes/custom/custom.php:469
+msgid "Button: Default Style"
+msgstr ""
+
+#: themes/custom/custom.php:490
+msgid "Button: Primary Style"
+msgstr ""
+
+#: themes/custom/custom.php:511
+msgid "Button: Success Style"
+msgstr ""
+
+#: themes/custom/custom.php:532
+msgid "Button: Danger Style"
+msgstr ""
+
+#: themes/custom/custom.php:553
+msgid "Input Fields"
+msgstr ""
+
+#: themes/custom/custom.php:572
+msgid "Border Color on Focus"
+msgstr ""
+
+#: themes/custom/custom.php:579
+msgid "Media Gallery Thumbnail"
+msgstr ""
+
+#: themes/custom/custom.php:595
+msgid "Cards"
+msgstr ""
+
+#: themes/custom/custom.php:604
+msgid "Title Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:609
+msgid "Title Border Bottom Color"
+msgstr ""
+
+#: themes/custom/custom.php:629 themes/custom/custom.php:670
+msgid "Footer Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:634 themes/custom/custom.php:675
+msgid "Footer Border Color"
+msgstr ""
+
+#: themes/custom/custom.php:641
+msgid "Menu Dropdown"
+msgstr ""
+
+#: themes/custom/custom.php:645
+msgid "Header Text Color"
+msgstr ""
+
+#: themes/custom/custom.php:650
+msgid "Header Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:655
+msgid "Body Text Color"
+msgstr ""
+
+#: themes/custom/custom.php:660
+msgid "Body Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:665
+msgid "Footer Text Color"
+msgstr ""
+
+#: themes/custom/custom.php:680
+msgid "Item Hover Border Color"
+msgstr ""
+
+#: themes/custom/custom.php:687
+msgid "Table"
+msgstr ""
+
+#: themes/custom/custom.php:706
+msgid "Boxshadow Color"
+msgstr ""
+
+#: themes/custom/custom.php:711
+msgid "Anchor Normal Text Color"
+msgstr ""
+
+#: themes/custom/custom.php:716
+msgid "Anchor Hover Text Color"
+msgstr ""
+
+#: themes/custom/custom.php:721
+msgid "Row Border Color"
+msgstr ""
+
+#: themes/custom/custom.php:726
+msgid "Row Stripped Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:731
+msgid "Row Active Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:738
+msgid "Notice: Success"
+msgstr ""
+
+#: themes/custom/custom.php:742 themes/custom/custom.php:758
+#: themes/custom/custom.php:774 themes/custom/custom.php:790
+msgid "Notice Text Color"
+msgstr ""
+
+#: themes/custom/custom.php:747 themes/custom/custom.php:763
+#: themes/custom/custom.php:779 themes/custom/custom.php:795
+msgid "Notice Background Color"
+msgstr ""
+
+#: themes/custom/custom.php:754
+msgid "Notice: Info"
+msgstr ""
+
+#: themes/custom/custom.php:770
+msgid "Notice: Warning"
+msgstr ""
+
+#: themes/custom/custom.php:786
+msgid "Notice: Danger"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PLUS Wordpress Admin Theme"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://www.castorstudio.com/plus-admin-wordpress-white-label-admin-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"PLUS Admin is the most complete and fully powered WordPress White Label "
+"Admin Theme. Customizing your admin area has never been so easy, with so "
+"many options, easy to use and with the posibility to change everything in "
+"seconds."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Castorstudio"
+msgstr ""

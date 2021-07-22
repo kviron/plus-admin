@@ -1,0 +1,115 @@
+/**
+ * 03. 25. Field: spinner
+ */
+ .cssf-field-spinner {
+	.cssf--spin {
+		float: left;
+	}
+	.cssf--unit {
+		float: right;
+		height: 30px;
+		line-height: 26px;
+		text-align: center;
+		border-left: none;
+		color: #999;
+		border: 1px solid #ddd;
+		border-left: 0;
+		background-color: #eee;
+		padding: 0 6px;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	.ui-spinner-button {
+		// cursor: pointer;
+		// position: relative;
+		// overflow: hidden;
+		// margin: 0;
+		// padding: 0;
+		// width: 30px;
+		// height: 30px;
+		// line-height: 30px;
+		// text-align: center;
+		// border: 1px solid #ddd;
+		// color: #555;
+		// background-color: #eee;
+		// box-sizing: border-box;
+		// padding: 7px 14px;
+		text-decoration: none;
+
+		position: relative;
+		z-index: 1;
+		float: left;
+		cursor: pointer;
+		padding: 7px 14px;
+		min-width: 37px;
+		height: 37px;
+		text-align: center;
+		color: rgb(85, 85, 85);
+		border: 1px solid rgb(204, 204, 204);
+		background-color: rgb(247, 247, 247);
+		user-select: none;
+		box-shadow: 0 1px 0 rgba(0,0,0,.1),inset 0 1px 0 rgba(255,255,255,.2);
+
+		&:hover {
+			background-color: #e7e7e7;
+		}
+		&:active {
+			background-color: #ddd;
+		}
+		&:before {
+			font-family: 'castor-line-icons', sans-serif;
+			font-size: 16px;
+			line-height: 16px;
+		}
+	}
+	.ui-spinner-down {
+		float: left;
+		border-right: 0;
+		border-radius: 3px 0 0 3px;
+		
+		&:before {
+			content: "\e99e";
+		}
+	}
+	.ui-spinner-up {
+		float: right;
+		border-left: 0;
+		border-radius: 0 3px 3px 0;
+
+		&:before {
+			content: "\e9b9";
+		}
+	}
+	input[type="text"]{
+		&.cssf-number.ui-spinner-input{
+			width: 60px;
+			text-align: center;
+			// margin: 0;
+			// padding: 0 8px;
+			// height: 30px;
+			// line-height: 30px;
+			// border: 1px solid #ddd;
+	
+	
+			line-height: inherit;
+			margin: 0;
+			padding: 7px 14px;
+			box-shadow: none;
+			border-radius: 0px;
+			border: 1px solid rgb(238, 238, 238) !important;
+			border-top-color: rgb(222, 222, 222) !important;
+			background-color: rgb(241, 241, 241) !important;
+			color: rgb(68, 68, 68);
+			transition: border-color 0.3s;
+		}
+
+
+
+		&:focus {
+			outline: none;
+		}
+	}
+	.ui-button-text {
+		display: none;
+	}
+}

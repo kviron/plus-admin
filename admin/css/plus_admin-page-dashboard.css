@@ -1,0 +1,112 @@
+.cs-plugin-home {
+  padding: 20px 30px;
+}
+
+.cs-plugin-home .cs-header {
+  position: relative;
+  padding: 0 0 20px 200px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dddddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.cs-plugin-home .cs-header::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 170px;
+  height: 170px;
+  background: url(../images/plus-admin-logo-device.png) no-repeat;
+  background-size: contain;
+}
+
+.cs-plugin-home .cs-header .cs-header__title h1 {
+  margin: .2em 200px 0 0;
+  padding: 0;
+  color: #32373c;
+  line-height: 1.2em;
+  font-size: 2.8em;
+  font-weight: 400;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.cs-plugin-home .cs-header .cs-header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cs-plugin-home .cs-header .cs-header__content .cs-header__about-text {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin: 0px 40px 20px 0px;
+  min-height: 60px;
+  color: #555d66;
+  font-weight: 300;
+  line-height: 1.6em;
+  font-size: 19px;
+}
+
+.cs-plugin-home .cs-header .cs-header__content .cs-header__links {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.cs-plugin-home .cs-header .cs-header__content .cs-header__links .cs-header__link {
+  padding: 6px 0;
+}
+
+.cs-plugin-home .cs-features {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cs-plugin-home .cs-features h4 {
+  font-size: 17px;
+  line-height: 26px;
+  margin: 0 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cs-plugin-home .cs-features h4 i {
+  font-size: 28px;
+  margin-right: 15px;
+  color: var(--uls-theme-color-primary);
+}
+
+.cs-plugin-home .cs-features p {
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.cs-plugin-home .cs-features .cs-button {
+  font-size: 14px;
+  height: auto;
+  padding: 4px 18px;
+}
+
+.cs-plugin-home .cs-features .one-third {
+  width: 29.3333%;
+  margin-left: 6%;
+}
+
+.cs-plugin-home .cs-features .one-third:first-child {
+  margin-left: 0;
+}
+/*# sourceMappingURL=plus_admin-page-dashboard.css.map */
